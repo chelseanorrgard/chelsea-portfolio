@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const handleNavLinkClick = (path) => {
+    setIsMobileMenuOpen(false); // Close the mobile menu
+    navigate(path); // Navigate to the selected page
   };
 
   return (
@@ -57,34 +63,34 @@ const NavBar = () => {
       {/* Mobile Menu */}
       <ul className={`md:hidden absolute top-16 right-0 bg-pink-100 shadow-md p-4 w-48 space-y-4 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
         <li>
-          <NavLink to="/" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+          <button onClick={() => handleNavLinkClick('/') } className="text-lg text-gray-700 hover:text-pink-500">
             Home
-          </NavLink>
+          </button>
         </li>
         <li>
-          <NavLink to="/about" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+          <button onClick={() => handleNavLinkClick('/about')} className="text-lg text-gray-700 hover:text-pink-500">
             About Me
-          </NavLink>
+          </button>
         </li>
         <li>
-          <NavLink to="/cv" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+          <button onClick={() => handleNavLinkClick('/cv')} className="text-lg text-gray-700 hover:text-pink-500">
             CV
-          </NavLink>
+          </button>
         </li>
         <li>
-          <NavLink to="/hobbies" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+          <button onClick={() => handleNavLinkClick('/hobbies')} className="text-lg text-gray-700 hover:text-pink-500">
             Hobbies
-          </NavLink>
+          </button>
         </li>
         <li>
-          <NavLink to="/projects" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+          <button onClick={() => handleNavLinkClick('/projects')} className="text-lg text-gray-700 hover:text-pink-500">
             Projects
-          </NavLink>
+          </button>
         </li>
         <li>
-          <NavLink to="/contact" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+          <button onClick={() => handleNavLinkClick('/contact')} className="text-lg text-gray-700 hover:text-pink-500">
             Contact
-          </NavLink>
+          </button>
         </li>
       </ul>
     </nav>
