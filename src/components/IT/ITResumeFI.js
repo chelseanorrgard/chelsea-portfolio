@@ -81,8 +81,8 @@ const ITResumeFI = () => {
       <h2 className="text-2xl font-bold mb-2 text-pink-500">KIELI</h2>
       <ul className="list-disc list-inside mb-4">
         <li>Englanti – Äidinkieli</li>
-        <li>Suomi – Hyvä puhetta ja kirjoitustaito (B1)</li>
-        <li>Ruotsi – Hyvä puhetta ja kirjoitustaito (B1)</li>
+        <li>Suomi – Hyvä puhe- ja kirjoitustaito (B1)</li>
+        <li>Ruotsi – Hyvä puhe- ja kirjoitustaito (B1)</li>
       </ul>
     </div>
   );

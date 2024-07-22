@@ -9,7 +9,7 @@ const Contact = () => (
         <p className="flex items-center">
           <FaEnvelope className="mr-3" size={24} />
           <a href="mailto:chelseanorrgard@gmail.com" className="text-gray-700">
-            chelseanorrgard@gmail.com
+            chelseanorrgard(at)gmail(dot)com
           </a>
         </p>
         <p className="flex items-center">
