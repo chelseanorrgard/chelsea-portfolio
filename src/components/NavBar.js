@@ -20,8 +20,42 @@ const NavBar = () => {
         </button>
       </div>
 
+      {/* Desktop Menu */}
+      <ul className="hidden md:flex md:justify-center space-x-12">
+        <li>
+          <NavLink to="/" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            About Me
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/cv" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            CV
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/hobbies" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Hobbies
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+
       {/* Mobile Menu */}
-      <ul className={`md:flex md:justify-center space-x-12 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
+      <ul className={`md:hidden absolute top-16 right-0 bg-pink-100 shadow-md p-4 w-48 space-y-4 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
         <li>
           <NavLink to="/" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
             Home
