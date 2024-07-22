@@ -42,10 +42,10 @@ const CV = () => {
 
   return (
     <div className="max-w-screen-lg mx-auto p-6">
-      <h1 className="text-4xl font-bold text-pink-500 mb-4">Curriculum Vitae</h1>
-      
+      <h1 className="text-4xl font-bold text-pink-500 mb-6">Curriculum Vitae</h1>
+
       {/* Buttons for selecting IT or Nursing */}
-      <div className="flex justify-center mb-6 space-x-8">
+      <div className="flex flex-wrap justify-center mb-6 gap-4">
         <button
           onClick={() => setSelectedTab('IT')}
           className={`px-6 py-3 rounded-full text-lg focus:outline-none ${selectedTab === 'IT' ? 'bg-pink-300 text-white' : 'bg-gray-200 text-gray-700'}`}
@@ -61,7 +61,7 @@ const CV = () => {
       </div>
 
       {/* Text for selecting preferred language */}
-      <div className="mb-4 text-lg text-gray-700 text-center">
+      <div className="mb-6 text-lg text-gray-700 text-center">
         <p className="mb-2">
           Choose your preferred language {' '}
           <span style={pinkStarStyle}>★</span>{' '}
@@ -72,7 +72,7 @@ const CV = () => {
       </div>
 
       {/* Buttons for selecting language */}
-      <div className="flex justify-center mb-8 space-x-8">
+      <div className="flex flex-wrap justify-center mb-8 gap-4">
         <button
           onClick={() => setSelectedLanguage('EN')}
           className={`px-4 py-2 rounded-full text-lg focus:outline-none ${selectedLanguage === 'EN' ? 'bg-pink-300 text-white' : 'bg-gray-200 text-gray-700'}`}
@@ -100,4 +100,5 @@ const CV = () => {
 };
 
 export default CV;
+
 
