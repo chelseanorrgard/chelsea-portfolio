@@ -20,13 +20,20 @@ const About = () => (
       <p className="mb-4">I am happily married to Staffan Norrgård, whom I met during my nursing studies in Finland and married in June 2019. We live together with our chihuahua, Lucy. In September 2022, I obtained Finnish citizenship, affirming my commitment to life in Finland while maintaining dual citizenship with the USA.</p>
 
       {/* Images section */}
-      <div className="flex items-center space-x-4 mt-4">
-        <img src={weddingImage} alt="Wedding" className="h-80 w-auto rounded-lg" />
-        <img src={lucyImage} alt="Lucy" className="h-80 w-auto rounded-lg" />
-        <img src={finlandImage} alt="Finland" className="h-80 w-auto rounded-lg" />
+      <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="aspect-w-4 aspect-h-3">
+          <img src={weddingImage} alt="Wedding" className="object-cover rounded-lg w-full h-full" />
+        </div>
+        <div className="aspect-w-4 aspect-h-3">
+          <img src={lucyImage} alt="Lucy" className="object-cover rounded-lg w-full h-full" />
+        </div>
+        <div className="aspect-w-4 aspect-h-3">
+          <img src={finlandImage} alt="Finland" className="object-cover rounded-lg w-full h-full" />
+        </div>
       </div>
     </div>
   </div>
 );
 
 export default About;
+
