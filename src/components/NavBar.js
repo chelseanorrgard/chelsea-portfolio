@@ -9,7 +9,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-pink-100 p-4 shadow-md relative">
+    <nav className="bg-pink-100 p-4 shadow-md">
       {/* Hamburger Button and Menu Text */}
       <div className="md:hidden flex items-center justify-end space-x-4">
         <span className="text-xl font-bold text-gray-700">Menu</span>
@@ -20,38 +20,69 @@ const NavBar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      <ul
-        className={`absolute right-0 top-full mt-2 w-48 bg-pink-100 shadow-lg rounded-lg ${isMobileMenuOpen ? 'block' : 'hidden'}`}
-        style={{ zIndex: 1000 }}
-      >
+      {/* Desktop Menu */}
+      <ul className="hidden md:flex md:justify-center space-x-12">
         <li>
-          <NavLink to="/" className={({ isActive }) => isActive ? "block px-4 py-2 text-lg text-pink-500" : "block px-4 py-2 text-lg text-gray-700 hover:text-pink-500"}>
+          <NavLink to="/" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" className={({ isActive }) => isActive ? "block px-4 py-2 text-lg text-pink-500" : "block px-4 py-2 text-lg text-gray-700 hover:text-pink-500"}>
+          <NavLink to="/about" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
             About Me
           </NavLink>
         </li>
         <li>
-          <NavLink to="/cv" className={({ isActive }) => isActive ? "block px-4 py-2 text-lg text-pink-500" : "block px-4 py-2 text-lg text-gray-700 hover:text-pink-500"}>
+          <NavLink to="/cv" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
             CV
           </NavLink>
         </li>
         <li>
-          <NavLink to="/hobbies" className={({ isActive }) => isActive ? "block px-4 py-2 text-lg text-pink-500" : "block px-4 py-2 text-lg text-gray-700 hover:text-pink-500"}>
+          <NavLink to="/hobbies" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
             Hobbies
           </NavLink>
         </li>
         <li>
-          <NavLink to="/projects" className={({ isActive }) => isActive ? "block px-4 py-2 text-lg text-pink-500" : "block px-4 py-2 text-lg text-gray-700 hover:text-pink-500"}>
+          <NavLink to="/projects" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
             Projects
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" className={({ isActive }) => isActive ? "block px-4 py-2 text-lg text-pink-500" : "block px-4 py-2 text-lg text-gray-700 hover:text-pink-500"}>
+          <NavLink to="/contact" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+
+      {/* Mobile Menu */}
+      <ul className={`md:hidden absolute top-16 right-0 bg-pink-100 shadow-md p-4 w-48 space-y-4 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
+        <li>
+          <NavLink to="/" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            About Me
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/cv" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            CV
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/hobbies" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Hobbies
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" className={({ isActive }) => isActive ? "text-lg text-pink-500" : "text-lg text-gray-700 hover:text-pink-500"}>
             Contact
           </NavLink>
         </li>
@@ -61,7 +92,6 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
 
 
 
