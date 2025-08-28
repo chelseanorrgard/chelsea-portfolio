@@ -42,7 +42,6 @@ Extra powers include: coffee ☕, snacks 🍪, and the occasional inspiration fr
 - Everything started as a scribble on a notebook ✏️  
 - Bugs occasionally fixed by gentle persuasion… or barking 🐾  
 - Design philosophy: “Pretty, functional, and approved by a chihuahua.”  
-- Occasionally includes Easter eggs for humans to discover 🥚  
 
 ---
 
