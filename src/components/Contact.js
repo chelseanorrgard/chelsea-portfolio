@@ -9,7 +9,7 @@ const Contact = () => {
   }, []);
 
   const contacts = [
-    { icon: <FaEnvelope size={24} />, label: 'Email', value: 'chelseanorrgard(at)gmail(dot)com', href: 'mailto:chelseanorrgard@gmail.com' },
+    { icon: <FaEnvelope size={24} />, label: 'Email', value: 'Email', href: 'mailto:chelseanorrgard@gmail.com' },
     { icon: <FaLinkedin size={24} />, label: 'LinkedIn', value: 'LinkedIn', href: 'https://www.linkedin.com/in/chelseanorrgard' },
     { icon: <FaGithub size={24} />, label: 'GitHub', value: 'GitHub', href: 'https://github.com/chelseanorrgard' },
     { icon: <FaInstagram size={24} />, label: 'Instagram', value: 'Instagram', href: 'https://www.instagram.com/ameri.finn' },
