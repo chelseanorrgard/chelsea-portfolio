@@ -10,6 +10,11 @@ import risk2 from '../assets/risk-2.png';
 import risk3 from '../assets/risk-3.png';
 import risk4 from '../assets/risk-4.png';
 
+import knit1 from '../assets/knit-1.png';
+import knit2 from '../assets/knit-2.png';
+import knit3 from '../assets/knit-3.png';
+import knit4 from '../assets/knit-4.png';
+
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [modalImg, setModalImg] = useState(null);
@@ -22,7 +27,7 @@ const Projects = () => {
     {
       name: 'WhereIs – Personal Inventory Mobile App',
       tech: ['React Native', 'Expo', 'JavaScript', 'Google Maps API', 'Firebase'],
-      description: `Created an Android app that allows users to track personal belongings by storing item names, photos, notes, GPS coordinates, and locations on an interactive map. The app uses Firebase for real-time data storage and photo hosting, ensuring seamless synchronization across devices. Integrated Google Maps API to provide users with a dynamic and intuitive visual representation of their items’ locations. Built with React Native and designed for usability with intuitive forms, offline support considerations, and efficient cloud syncing to maintain data integrity.`,
+      description: `Created an Android app that allows users to track personal belongings by storing item names, photos, notes, GPS coordinates, and locations on an interactive map. The app uses Firebase for real-time data storage and photo hosting, ensuring seamless synchronization across devices. Integrated Google Maps API to provide users with a dynamic and intuitive visual representation of their items' locations. Built with React Native and designed for usability with intuitive forms, offline support considerations, and efficient cloud syncing to maintain data integrity.`,
       link: 'https://github.com/chelseanorrgard/WhereIs',
       screenshots: [whereis1, whereis2, whereis3, whereis4],
     },
@@ -32,6 +37,13 @@ const Projects = () => {
       description: `Led a team project to modernize and expand a basic risk simulation game by refining gameplay logic, redesigning the user interface to improve accessibility, and enhancing overall code quality. As project manager and core contributor, I coordinated task delegation, implemented Excel export features, introduced modular architecture, and integrated new risk logic that incorporated probabilistic behavior over time. Added support for editable risk entries, dynamic UI updates, clearer scoring explanations, and performance logging improvements while keeping the app lightweight and maintainable.`,
       link: 'https://github.com/elifturhann/RiskSimuApp',
       screenshots: [risk1, risk2, risk3, risk4],
+    },
+    {
+      name: 'CryptoKnit',
+      tech: ['React', 'JavaScript', 'HTML/CSS', 'Cryptography', 'Steganography'],
+      description: `Developed an interactive web portfolio for my thesis exploring textile steganography with modern and historical cryptography methods. The project demonstrates how secret messages can be encoded in knitting and crochet patterns, combining traditional craft techniques with contemporary encryption algorithms. Built a responsive single-page application to showcase research findings, implementation examples, and visual demonstrations of cryptographic knitting patterns. The portfolio serves as both a technical demonstration and an educational resource on the intersection of fiber arts and information security.`,
+      link: 'https://github.com/chelseanorrgard/chelsea-portfolio',
+      screenshots: [knit1, knit2, knit3, knit4],
     },
   ];
 
