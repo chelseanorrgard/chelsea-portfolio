@@ -39,10 +39,10 @@ const Projects = () => {
       screenshots: [risk1, risk2, risk3, risk4],
     },
     {
-      name: 'CryptoKnit',
+      name: 'CryptoKnit – Textile Steganography Portfolio',
       tech: ['React', 'JavaScript', 'HTML/CSS', 'Cryptography', 'Steganography'],
       description: `Developed an interactive web portfolio for my thesis exploring textile steganography with modern and historical cryptography methods. The project demonstrates how secret messages can be encoded in knitting and crochet patterns, combining traditional craft techniques with contemporary encryption algorithms. Built a responsive single-page application to showcase research findings, implementation examples, and visual demonstrations of cryptographic knitting patterns. The portfolio serves as both a technical demonstration and an educational resource on the intersection of fiber arts and information security.`,
-      link: 'https://github.com/chelseanorrgard/chelsea-portfolio',
+      link: 'https://github.com/chelseanorrgard/crypto-knit',
       screenshots: [knit1, knit2, knit3, knit4],
     },
   ];
