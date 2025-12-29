@@ -105,14 +105,169 @@
     "viewGithub": "Visa projekt på GitHub"
   },
   "cv": {
-    "title": "Curriculum Vitae",
+    "curriculum": "Curriculum",
+    "vitae": "Vitae",
     "resumeType": "CV-typ",
-    "resumeTypeDesc": "Välj vilket CV du vill se",
+    "resumeTypeDesc": "Välj vilket CV du vill öppna — det allmänna eller vårdversionen. Karriärbyten håller livet lagom intressant.",
     "primaryResume": "Primärt CV",
     "nursingResume": "Sjukskötare CV",
-    "language": "Språk",
-    "chooseLanguage": "Välj"
+    "downloadPDF": "Ladda ner PDF"
   },
+  "resume": {
+    "it": {
+      "objective": {
+        "title": "MÅL",
+        "point1": "Dynamisk och hängiven informationsteknikstudent med en mångsidig bakgrund inom sjukvård, juridik och statliga myndigheter, redo att övergå till en karriär som mjukvaruingenjör.",
+        "point2": "Skicklig i JavaScript, C, HTML, CSS och React, med en passion för att skapa intuitiva användarupplevelser och driva innovation inom mjukvaruutveckling.",
+        "point3": "Skicklig i programvarutestmetoder, inklusive enhetstestning, och skicklig på felsökning av programmeringsfel.",
+        "point4": "En samarbetsvillig lagspelare med starka kommunikationsfärdigheter, engagerad i att leverera högkvalitativ kod och stödja organisationens tillväxt genom kontinuerligt lärande och agil utvecklingspraxis."
+      },
+      "skills": {
+        "title": "FÄRDIGHETER",
+        "point1": "Öppensinnad med omfattande erfarenhet i mångkulturella miljöer.",
+        "point2": "Engelsk modersmålstalare med B1-nivå färdighet i finska och svenska.",
+        "point3": "Självständig arbetare med starka organisations- och sekretessfärdigheter.",
+        "point4": "Erfaren i att skapa lean-processer genom logisk utvärdering.",
+        "point5": "Skicklig i operativsystem, Java, HTML, CSS, C, front-end-utveckling, objektorienterad programmering, applikationsutveckling, agil mjukvaruutveckling, lokala nätverk, telekommunikation, fältbussar, elektronik och digitalelektronik.",
+        "point6": "Auktoriserad att arbeta i USA och EU/Schengen-området på grund av dubbelt medborgarskap (USA och Finland)."
+      },
+      "experience": {
+        "title": "ARBETSERFARENHET",
+        "danfoss": {
+          "title": "Produktion – Danfoss via Barona",
+          "location": "Vasa, Finland | Juni 2022 – Februari 2024",
+          "point1": "Monterade frekvensomriktare och genomförde grundläggande kvalitetssäkringstestning.",
+          "point2": "Upprätthöll produktionsstandarder och kvoter."
+        },
+        "inmedi": {
+          "title": "Sjukskötare – Inmedi Oy",
+          "location": "Vasa, Finland | Oktober 2020 – Juni 2022",
+          "point1": "Tillhandahöll pediatrisk vård och hospice för svårt sjuka barn.",
+          "point2": "Fungerade som kontaktperson mellan föräldrar och vårdteam.",
+          "point3": "Dokumenterade patientvård och kommunicerade effektivt med teammedlemmar."
+        },
+        "bishop": {
+          "title": "Ledande utmätningsassistent – Bishop, White, Marshall & Weibel",
+          "location": "Seattle, WA USA | Oktober 2012 – November 2014",
+          "point1": "Hanterade utmätningshänvisningar och bistod med filsammanställning.",
+          "point2": "Utvecklade processförbättringar, inklusive ett elektroniskt hänvisnings rapporteringssystem."
+        },
+        "state": {
+          "title": "Passbehandlare och kommunikationsspecialist – Utrikesdepartementet",
+          "location": "Seattle, WA USA | Mars 2007 – Juli 2012",
+          "point1": "Bearbetade pass och upprätthöll kommunikation med sökande.",
+          "point2": "Bistod bedömningspersonal med sökandeassocierade uppgifter.",
+          "point3": "Fungerade som kontaktpunkt för sökande och passacceptansagenter."
+        }
+      },
+      "education": {
+        "title": "UTBILDNING",
+        "vamk": {
+          "title": "Vasa yrkeshögskola",
+          "location": "Vasa, Finland | Förväntad examen 2026",
+          "degree": "Studerar för närvarande en ingenjörsexamen (YH) i informationsteknik."
+        },
+        "eduvamia": {
+          "title": "Oy Eduvamia Ab",
+          "location": "Vasa, Finland | 2020",
+          "program": "Integrationsutbildning / Kotoutumiskoulutus",
+          "details": "Slutförde samtidigt finska för sjukskötare (Sairaanhoitajan Suomi) och fick B1-nivå YKI-certifikat (Yleiset kielitutkinnot)."
+        },
+        "novia": {
+          "title": "Yrkeshögskolan Novia",
+          "location": "Vasa, Finland | 2016 – 2019",
+          "degree": "Sjukskötare (YH)"
+        },
+        "wsu": {
+          "title": "Washington State University",
+          "location": "Pullman, WA, USA | 2002 – 2006",
+          "degree": "Bachelor of Art i konst med biämne i kommunikation"
+        }
+      }
+    },
+    "nursing": {
+      "skills": {
+        "title": "FÄRDIGHETER",
+        "skill1": "Första hjälpen (FHJ 2)",
+        "skill2": "Aseptisk teknik",
+        "skill3": "IV-kanylering",
+        "skill4": "Läkemedelshantering",
+        "skill5": "Äldrevård",
+        "skill6": "Ergonomi",
+        "skill7": "Patienthygien",
+        "skill8": "Vitalfunktioner",
+        "skill9": "Sårvård",
+        "skill10": "Injektioner",
+        "skill11": "Blodsockerövervak ning",
+        "skill12": "Stomavård",
+        "skill13": "Matsonde hantering (PEG)",
+        "skill14": "Syrgasterapi",
+        "skill15": "Luftvägssugning",
+        "skill16": "Trakeostomivård",
+        "skill17": "Intravenös infusion",
+        "skill18": "Venpunktion",
+        "skill19": "Diagnostiska tester"
+      },
+      "experience": {
+        "title": "ARBETSERFARENHET",
+        "inmedi": {
+          "title": "INMEDI OY",
+          "location": "Vasa, Finland | Oktober 2020 – Juni 2022",
+          "description": "Nattskiftsjukskötare för barn och för tidigt födda spädbarn drabbade av svår sällsynt sjukdom eller varaktiga födelsekomplikationer. Behandlingen inkluderar andningsövervakning och behandlingar, läkemedelsadministration, PEG-matning och upprätthållande av god allmän hälsa."
+        },
+        "esperi": {
+          "title": "ESPERI HOIVAKOTI GUSTAV",
+          "location": "Vasa, Finland | Oktober 2019 – Januari 2020",
+          "description": "Tillfällig sjukskötartjänst som involverar grundvård för 30 patienter över två avdelningar."
+        },
+        "elvira": {
+          "title": "ELVIRA SERVICEBOENDET",
+          "location": "Korsholm, Finland | Maj 2019 – Augusti 2019",
+          "description": "Sommarvikariesjukskötarroll som tillhandahöll grundvård för 24 patienter över två avdelningar."
+        },
+        "hospital": {
+          "title": "VASA CENTRALSJUKHUS OLIKA AVDELNINGAR",
+          "location": "Vasa, Finland | Augusti 2018 – Oktober 2018, Januari 2019 – April 2019, Augusti 2019 – September 2019",
+          "description": "Kliniska praktikplatser som täcker onkologi, dagkirurgi, kirurgisk enhet, kirurgisk öppenvårdsklinik, dialys, hemvård, dagenhet och psykisk hälsorehabilitering."
+        },
+        "training": {
+          "title": "CARL & CAROLINA ÅLDERDOMSHEMMET OCH HIMALAJA PALVELUTALO",
+          "location": "Vasa, Finland | Maj 2017 – Juni 2017, Februari 2018 – Mars 2018",
+          "description": "Utbildningssessioner omfattade grundvård, vårdhemsdrift och medicinsk utbildning som blodprovtagning, vitalfunktionsövervakning, stomavård, sårvård och läkemedelshantering."
+        }
+      },
+      "education": {
+        "title": "UTBILDNING",
+        "vamk": {
+          "title": "Vasa yrkeshögskola",
+          "location": "Vasa, Finland | Förväntad examen 2026",
+          "degree": "Studerar för närvarande en ingenjörsexamen (YH) i informationsteknik."
+        },
+        "eduvamia": {
+          "title": "Oy Eduvamia Ab",
+          "location": "Vasa, Finland | 2020",
+          "program": "Integrationsutbildning / Kotoutumiskoulutus",
+          "details": "Slutförde samtidigt finska för sjukskötare (Sairaanhoitajan Suomi) och fick B1-nivå YKI-certifikat (Yleiset kielitutkinnot)."
+        },
+        "novia": {
+          "title": "Yrkeshögskolan Novia",
+          "location": "Vasa, Finland | 2016 – 2019",
+          "degree": "Sjukskötare (YH)"
+        },
+        "wsu": {
+          "title": "Washington State University",
+          "location": "Pullman, WA, USA | 2002 – 2006",
+          "degree": "Bachelor of Art i konst med biämne i kommunikation"
+        }
+      }
+    },
+    "languages": {
+      "title": "SPRÅK",
+      "english": "Engelska – Modersmål",
+      "swedish": "Svenska – Skicklig (B1)",
+      "finnish": "Finska – Skicklig (B1)"
+    }
+  },  
   "contact": {
     "title": "Kontakt",
     "getInTouch": "Kontakta mig",

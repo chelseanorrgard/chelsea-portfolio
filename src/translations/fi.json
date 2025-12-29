@@ -105,13 +105,168 @@
     "viewGithub": "Näytä projekti GitHubissa"
   },
   "cv": {
-    "title": "Ansioluettelo",
+    "curriculum": "Ansioluettelo",
+    "vitae": "",
     "resumeType": "Ansioluettelon tyyppi",
-    "resumeTypeDesc": "Valitse mikä ansioluettelo haluat nähdä",
+    "resumeTypeDesc": "Valitse, kumpaa CV:tä haluat katsoa — yleistä vai hoitotyön. Alanvaihto pitää elämän sopivan mielenkiintoisena.",
     "primaryResume": "Ensisijainen ansioluettelo",
     "nursingResume": "Sairaanhoitajan ansioluettelo",
-    "language": "Kieli",
-    "chooseLanguage": "Valitse"
+    "downloadPDF": "Lataa PDF"
+  },
+    "resume": {
+    "it": {
+      "objective": {
+        "title": "TAVOITE",
+        "point1": "Dynaaminen ja omistautunut tietotekniikan opiskelija, jolla on monipuolinen tausta sairaanhoidossa, oikeudessa ja valtion virastoissa, valmis siirtymään uralle ohjelmistokehittäjänä.",
+        "point2": "Osaava JavaScriptissä, C:ssä, HTML:ssä, CSS:ssä ja Reactissa, intohimoisena luomaan intuitiivisia käyttäjäkokemuksia ja edistämään innovaatioita ohjelmistokehityksessä.",
+        "point3": "Taitava ohjelmiston testausmetodologioissa, mukaan lukien yksikkötestaus, ja taitava ohjelmointivirheiden vianmäärityksessä.",
+        "point4": "Yhteistyökykyinen tiimipelaaja, jolla on vahvat viestintätaidot, sitoutunut toimittamaan korkealaatuista koodia ja tukemaan organisaation kasvua jatkuvan oppimisen ja ketterän kehityksen käytäntöjen kautta."
+      },
+      "skills": {
+        "title": "TAIDOT",
+        "point1": "Ennakkoluuloton ja laaja kokemus monikulttuurisista ympäristöistä.",
+        "point2": "Englannin natiivipuhuja, jonka suomen ja ruotsin kielen taito on B1-tasoa.",
+        "point3": "Itsenäinen työntekijä, jolla on vahvat organisointi- ja luottamuksellisuustaidot.",
+        "point4": "Kokenut kevyiden prosessien luomisessa loogisen arvioinnin kautta.",
+        "point5": "Osaava käyttöjärjestelmissä, Javassa, HTML:ssä, CSS:ssä, C:ssä, front-end-kehityksessä, olio-ohjelmoinnissa, sovelluskehityksessä, ketterässä ohjelmistokehityksessä, lähiverkoissa, tietoliikenteessä, kenttäväylissä, elektroniikassa ja digitaalielektroniikassa.",
+        "point6": "Oikeus työskennellä Yhdysvalloissa ja EU:n/Schengen-alueella kaksois kansalaisuuden (USA ja Suomi) vuoksi."
+      },
+      "experience": {
+        "title": "TYÖKOKEMUS",
+        "danfoss": {
+          "title": "Tuotanto – Danfoss Baronan kautta",
+          "location": "Vaasa, Suomi | Kesäkuu 2022 – Helmikuu 2024",
+          "point1": "Kokosi taajuusmuuttajia ja suoritti peruslaadunvarmistustestauksia.",
+          "point2": "Ylläpiti tuotantostandardeja ja kiintiöitä."
+        },
+        "inmedi": {
+          "title": "Sairaanhoitaja – Inmedi Oy",
+          "location": "Vaasa, Suomi | Lokakuu 2020 – Kesäkuu 2022",
+          "point1": "Tarjosi lasten- ja saattohoitoa vakavasti sairaille lapsille.",
+          "point2": "Toimi yhteyshenkilönä vanhempien ja hoitotiimin välillä.",
+          "point3": "Dokumentoi potilashoitoa ja kommunikoi tehokkaasti tiimin jäsenten kanssa."
+        },
+        "bishop": {
+          "title": "Johtava ulosmittausvirkailija – Bishop, White, Marshall & Weibel",
+          "location": "Seattle, WA USA | Lokakuu 2012 – Marraskuu 2014",
+          "point1": "Hallinnoi ulosmittauslähetteitä ja avusti tiedostojen kokoamisessa.",
+          "point2": "Kehitti prosessiparannuksia, mukaan lukien sähköinen lähete-raportointijärjestelmä."
+        },
+        "state": {
+          "title": "Passinprosessori ja viestintäasiantuntija – Ulkoministeriö",
+          "location": "Seattle, WA USA | Maaliskuu 2007 – Heinäkuu 2012",
+          "point1": "Käsitteli passeja ja ylläpiti viestintää hakijoiden kanssa.",
+          "point2": "Avusti tuomitsevan henkilöstön hakijoihin liittyvissä tehtävissä.",
+          "point3": "Toimi yhteyspisteenä hakijoille ja passin hyväksymisagenteille."
+        }
+      },
+      "education": {
+        "title": "KOULUTUS",
+        "vamk": {
+          "title": "Vaasan ammattikorkeakoulu",
+          "location": "Vaasa, Suomi | Odotettu valmistuminen 2026",
+          "degree": "Opiskelee parhaillaan insinöörin (AMK) tutkintoa tietotekniikassa."
+        },
+        "eduvamia": {
+          "title": "Oy Eduvamia Ab",
+          "location": "Vaasa, Suomi | 2020",
+          "program": "Kotoutumiskoulutus",
+          "details": "Suoritti samanaikaisesti Sairaanhoitajan Suomi -kurssin ja ansaitsi B1-tason YKI-todistuksen (Yleiset kielitutkinnot)."
+        },
+        "novia": {
+          "title": "Yrkeshögskolan Novia",
+          "location": "Vaasa, Suomi | 2016 – 2019",
+          "degree": "Sairaanhoitaja (AMK)"
+        },
+        "wsu": {
+          "title": "Washington State University",
+          "location": "Pullman, WA, USA | 2002 – 2006",
+          "degree": "Bachelor of Art kuvataiteen alalta sivuaineena viestintä"
+        }
+      }
+    },
+    "nursing": {
+      "skills": {
+        "title": "TAIDOT",
+        "skill1": "Ensiapu (FHJ 2)",
+        "skill2": "Aseptinen tekniikka",
+        "skill3": "IV-kanylointi",
+        "skill4": "Lääkehoito",
+        "skill5": "Vanhusten hoito",
+        "skill6": "Ergonomia",
+        "skill7": "Potilaan hygienia",
+        "skill8": "Elintoiminnot",
+        "skill9": "Haavanhoito",
+        "skill10": "Injektiot",
+        "skill11": "Verensokeriseuranta",
+        "skill12": "Stoomanhoito",
+        "skill13": "Ruokintaletkun hallinta (PEG)",
+        "skill14": "Happiterapia",
+        "skill15": "Hengitysteiden imu",
+        "skill16": "Trakeostomiahoito",
+        "skill17": "Laskimoon annettava infuusio",
+        "skill18": "Laskimopisto",
+        "skill19": "Diagnostiset testit"
+      },
+      "experience": {
+        "title": "TYÖKOKEMUS",
+        "inmedi": {
+          "title": "INMEDI OY",
+          "location": "Vaasa, Suomi | Lokakuu 2020 – Kesäkuu 2022",
+          "description": "Yövuoron sairaanhoitaja lapsille ja ennenaikaisesti syntyneille imeväisille, joilla on vakava harvinainen sairaus tai pysyviä syntymäkomplikaatioita. Hoito sisältää hengityksen seurantaa ja hoitoja, lääkkeiden antoa, PEG-ruokintaa ja hyvän yleisterveyden ylläpitoa."
+        },
+        "esperi": {
+          "title": "ESPERI HOIVAKOTI GUSTAV",
+          "location": "Vaasa, Suomi | Lokakuu 2019 – Tammikuu 2020",
+          "description": "Väliaikainen sairaanhoitajan tehtävä, johon sisältyi perushoitoa 30 potilaalle kahdella osastolla."
+        },
+        "elvira": {
+          "title": "ELVIRA SERVICEBOENDET",
+          "location": "Mustasaari, Suomi | Toukokuu 2019 – Elokuu 2019",
+          "description": "Kesän sijaishoitajan rooli, jossa tarjottiin perushoitoa 24 potilaalle kahdella osastolla."
+        },
+        "hospital": {
+          "title": "VAASAN KESKUSSAIRAALAN ERI OSASTOT",
+          "location": "Vaasa, Suomi | Elokuu 2018 – Lokakuu 2018, Tammikuu 2019 – Huhtikuu 2019, Elokuu 2019 – Syyskuu 2019",
+          "description": "Kliiniset harjoittelujaksot kattaen onkologian, päiväkirurgian, kirurgisen yksikön, kirurgisen poliklinikan, dialyysin, kotihoidon, päiväyksikön ja mielenterveyden kuntoutuksen."
+        },
+        "training": {
+          "title": "CARL & CAROLINA ÅLDERDOMSHEMMET JA HIMALAJA PALVELUTALO",
+          "location": "Vaasa, Suomi | Toukokuu 2017 – Kesäkuu 2017, Helmikuu 2018 – Maaliskuu 2018",
+          "description": "Harjoittelusessiot käsittivät perushoidon, hoitokodin toiminnan ja lääketieteellisen koulutuksen, kuten verinäytteenoton, elintoimintojen seurannan, stooman hoidon, haavanhoidon ja lääkehoidon."
+        }
+      },
+      "education": {
+        "title": "KOULUTUS",
+        "vamk": {
+          "title": "Vaasan ammattikorkeakoulu",
+          "location": "Vaasa, Suomi | Odotettu valmistuminen 2026",
+          "degree": "Opiskelee parhaillaan insinöörin (AMK) tutkintoa tietotekniikassa."
+        },
+        "eduvamia": {
+          "title": "Oy Eduvamia Ab",
+          "location": "Vaasa, Suomi | 2020",
+          "program": "Kotoutumiskoulutus",
+          "details": "Suoritti samanaikaisesti Sairaanhoitajan Suomi -kurssin ja ansaitsi B1-tason YKI-todistuksen (Yleiset kielitutkinnot)."
+        },
+        "novia": {
+          "title": "Yrkeshögskolan Novia",
+          "location": "Vaasa, Suomi | 2016 – 2019",
+          "degree": "Sairaanhoitaja (AMK)"
+        },
+        "wsu": {
+          "title": "Washington State University",
+          "location": "Pullman, WA, USA | 2002 – 2006",
+          "degree": "Bachelor of Art kuvataiteen alalta sivuaineena viestintä"
+        }
+      }
+    },
+    "languages": {
+      "title": "KIELET",
+      "english": "Englanti – Natiiviäidinkieli",
+      "swedish": "Ruotsi – Taitava (B1)",
+      "finnish": "Suomi – Taitava (B1)"
+    }
   },
   "contact": {
     "title": "Yhteystiedot",
