@@ -43,8 +43,8 @@ const languages = [
           { path: '/', label: t('nav.home') },
           { path: '/about', label: t('nav.about') },
           { path: '/cv', label: t('nav.cv') },
-          { path: '/hobbies', label: t('nav.hobbies') },
           { path: '/projects', label: t('nav.projects') },
+          { path: '/hobbies', label: t('nav.hobbies') },
           { path: '/contact', label: t('nav.contact') }
         ].map((item, index) => (
           <React.Fragment key={item.path}>
@@ -119,16 +119,16 @@ const languages = [
             📄 {t('nav.cv')}
           </button>
           <button 
-            onClick={() => handleNavLinkClick('/hobbies')} 
-            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
-          >
-            🎨 {t('nav.hobbies')}
-          </button>
-          <button 
             onClick={() => handleNavLinkClick('/projects')} 
             className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
           >
             💻 {t('nav.projects')}
+          </button>
+          <button 
+            onClick={() => handleNavLinkClick('/hobbies')} 
+            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
+          >
+            🎨 {t('nav.hobbies')}
           </button>
           <button 
             onClick={() => handleNavLinkClick('/contact')} 
@@ -139,8 +139,7 @@ const languages = [
 
           {/* Language Toggle - Mobile */}
           <div className="pt-4 border-t border-pink-200">
-            <p className="text-sm text-gray-600 mb-2 px-4">Language / Kieli / Språk:</p>
-            <div className="flex gap-2">
+              <div className="flex gap-2">
               {languages.map((lang) => (
                 <button
                   key={lang.code}
@@ -151,7 +150,11 @@ const languages = [
                       : 'bg-white/50 text-gray-700 hover:bg-pink-100'
                   }`}
                 >
-                  {lang.flag} {lang.label}
+                <ReactCountryFlag
+                countryCode={lang.countryCode}
+                svg
+                style={{ width: '1.5em', height: '1.5em', marginRight: '0.5em' }}
+              /> {lang.label}
                 </button>
               ))}
             </div>
