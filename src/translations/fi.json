@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Koti",
+    "about": "Minusta",
+    "cv": "Ansioluettelo",
+    "hobbies": "Harrastukset",
+    "projects": "Projektit",
+    "contact": "Yhteystiedot"
+  },
+  "home": {
+    "welcome": "Tervetuloa",
+    "title": "Chelsea Norrgårdin Portfolioon",
+    "subtitle": "IT-ammattilainen & sairaanhoitaja Vaasasta, Suomesta",
+    "available": "Käytettävissä työhön",
+    "hello": "Hei & Tervetuloa!",
+    "helloText": "Hei, olen Chelsea Norrgård — amerikkalainen, joka jostain syystä päätyi Suomeen. Vaihdoin Seattlen sateen Vaasan lumeen (ei ehkä fiksuin liike, mutta kesät ovat sentään hyvät). Tämä on portfolioni: osa tekniikkaa, osa hoitotyötä, osa 'miten ihmeessä tähän päädyttiin?' tarinaa. Pidä kiinni.",
+    "discover": "Mitä löydät",
+    "discoverText": "Täältä löydät tekniset projektini, hoitotyön seikkailuni ja harrastukseni kuten leipomisen ja neulomisen. Varoitus: kuuntelen modernia metalcorea, joten kyllä, huutavat kitaramiehet ovat minun motivaatiomusiikkiani. Jos se pelottaa, pysy neuleosiossa.",
+    "explore": "Tutustu matkaani",
+    "exploreText": "Uraani voisi kuvailla enemmän vuoristoradaksi kuin suoraksi poluksi. Taide, hoitotyö, teollisuus ja lopulta ohjelmistokehitys—keräsin taitoja kuin Pokémon-kortteja. Tutustu vapaasti, mutta älä odota satumaista tarinaa.",
+    "thanks": "Kiitos vierailustasi!",
+    "thanksText": "Kiitos kun kävit. Toivottavasti löydät jotain, mikä vakuuttaa sinut siitä että olen palkkaamisen arvoinen—tai ainakin kahvikeskustelun arvoinen.",
+    "whyWork": "Miksi työskennellä kanssani?",
+    "whyWorkSub": "Ainutlaatuinen yhdistelmä teknisiä taitoja, inhimillistä empatiaa ja ripaus sarkasmia",
+    "technical": "Tekninen asiantuntemus",
+    "technicalDesc": "Nykyaikaisen web-kehityksen taidot Reactin, JavaScriptin ja full-stack-ominaisuuksien kanssa",
+    "healthcare": "Terveydenhuollon tausta",
+    "healthcareDesc": "Sairaanhoitajakokemus tuo ainutlaatuisen näkökulman käyttäjäkeskeiseen suunnitteluun ja ongelmanratkaisuun",
+    "global": "Globaali näkökulma",
+    "globalDesc": "Monikulttuurinen kokemus USA:sta Suomeen, tuoden sopeutumiskykyä, tuoreita oivalluksia ja tervettä skeptisyyttä"
+  },
+  "about": {
+    "title1": "Minusta",
+    "title2": "♥",
+    "journey": "Matkani",
+    "journeyText1": "Nimeni on Chelsea Norrgård (o.s. Harris). Alun perin Seattlesta, Washingtonista, USA:sta, asun nyt pysyvästi Vaasassa, Suomessa — koska ilmeisesti loputtoman sateen vaihtaminen loputtomaan lumeen tuntui hyvältä idealta silloin.",
+    "journeyText2": "Valmistuttuani Washington State Universitystä kuvataiteen kandidaatiksi ja viestinnän sivuaineella vuonna 2006 sukelsin suoraan byrokraattisen toimistoelämän jännittävään maailmaan. Työskentelin ulkoministeriössä ja lakitoimistossa keskittyen yksityisyyteen ja lakisääteiseen noudattamiseen — koska mikään ei huuda jännitystä yhtä paljon kuin paperityö ja punainen nauha.",
+    "education": "Koulutus & Kasvu (tai ainakin selviytyminen)",
+    "educationText1": "Vuoden 2014 lopulla pidin tauon yritysmaailman yksitoikkoisuudesta ja työskentelin koirien trimmaamossa samalla kun kävin kansanopiston kursseja ja suunnittelin mahdollista muuttoa Suomeen. Vuoden 2016 puolivälissä minut hyväksyttiin Novia-ammattikorkeakoulun sairaanhoitajakoulutukseen Vaasassa, mikä sinetöi kohtaloni. Valmistuin sairaanhoitajaksi joulukuussa 2019, mikä todistaa että univaje voi todellakin olla elämäntapa.",
+    "educationText2": "Sairaanhoitajaurani aikana työskentelin pääasiassa vanhainkodeissa ja myöhemmin alle 6-vuotiaiden lasten kanssa, keskittyen vakaviin eteneviin sairauksiin ja ennenaikaisen syntymän komplikaatioihin. Se oli palkitsevaa, kyllä, mutta myös jatkuva muistutus siitä että empatia on uuvuttavaa. Lopulta päätin vaihtaa alaa ennen kuin paloin täysin loppuun.",
+    "itCareer": "IT-ura (koska miksi ei?)",
+    "itCareerText": "Tammikuussa 2022 hyppäsin IT-alalle ilmoittautumalla VAMKin ohjelmaan ja ottamalla joustavaa työtä Danfossin tuotantolinjalla. Urapolun kaaoksesta huolimatta hion edelleen koodaus­taitojani ja etsin mahdollisuuksia teknologiassa — koska koodin debuggaaminen on jollain tavalla vähemmän sielua murskaavaa kuin byrokratia tai yövuorot.",
+    "personal": "Henkilökohtainen elämä",
+    "personalText": "Olen naimisissa Staffan Norrgårdin kanssa, jonka tapasin sairaanhoitajakoulussa ja menin naimisiin kesäkuussa 2019. Asumme yhdessä Lucy‑chihuahuan kanssa, joka 14 vuoden iässä hallitsee kotia rautaisella tassulla. Syyskuussa 2022 sain Suomen kansalaisuuden, mikä tarkoittaa että minulla on nyt etuoikeus valittaa sekä amerikkalaisesta että suomalaisesta politiikasta.",
+    "quickFacts": "Pikatiedot",
+    "location": "Sijainti",
+    "locationValue": "Vaasa, Suomi",
+    "educationLabel": "Koulutus",
+    "educationValue1": "BA Kuvataide",
+    "educationValue2": "BSc Sairaanhoito",
+    "educationValue3": "BEng Tietotekniikka",
+    "citizenship": "Kansalaisuus",
+    "citizenshipValue": "Suomi & USA",
+    "focus": "Fokus",
+    "focusValue": "IT & Web-kehitys",
+    "coreStrengths": "Ydinvahvuudet (muka)",
+    "problemSolving": "Ongelmanratkaisu",
+    "communication": "Viestintä",
+    "empathy": "Empatia",
+    "technicalLearning": "Tekninen oppiminen",
+    "api": "API:en integrointi",
+    "linux": "Linux (Ubuntu ja Kali)",
+    "git": "Versionhallinta (Git)",
+    "myLife": "Elämäni kuvissa",
+    "myLifeSub": "Hetkiä jotka merkitsevät minulle (tai ainakin näyttävät hyvältä verkossa)",
+    "wedding": "Hääpäivä",
+    "weddingDesc": "Naimisiin Staffanin kanssa kesäkuussa 2019",
+    "lucy": "Chihuahuani Lucy",
+    "lucyDesc": "Pieni diktaattori, rakas perheenjäsen",
+    "finland": "Kaunis Suomi",
+    "finlandDesc": "Adoptoitu kotimaani"
+  },
+  "hobbies": {
+    "title1": "Minun",
+    "title2": "Harrastukset",
+    "baking": "Leipominen ja ruoanlaitto",
+    "bakingText": "Vietän aivan liikaa aikaa keittiössä tehden herkkuja, jotka katoavat nopeammin kuin ehdin kuvata ne. Reseptien kokeileminen on hauskaa, kunnes tajuaa että 'hauskaa' tarkoittaa myös siivoamista.",
+    "knitting": "Neulominen ja virkkaus",
+    "knittingText1": "Neulominen ja virkkaus pitävät minut kiireisenä — ja kiireisellä tarkoitan hukkuvani lankaan. Lankavarastoni voisi varmaan luokitella paloturvallisuusriskiksi, ja kyllä, minulla on enemmän keskeneräisiä projekteja kuin koskaan valmistuneita.",
+    "knittingText2": "Tässä linkki Ravelry-sivulleni, josta löytyy todisteita siitä että joskus saan jotain valmiiksi:",
+    "quickFacts": "Pikatiedot",
+    "favoriteTreats": "Lempileivonnaiset",
+    "treatsValue": "Tortut, Piirakat, Conchas, Leipä",
+    "knittingProjects": "Neulonta- ja virkkausprojektit",
+    "projectsValue": "Huivit, Sukat, Pehmot, Villapaidat, Pipot",
+    "gaming": "Pelaaminen",
+    "gamingValue": "PC-pelit kuten GTA, Stardew Valley, Trine, R.E.P.O., 7 Days to Die ja monet muut",
+    "music": "Musiikki",
+    "musicValue": "Electric Callboy, Imminence, Bad Omens, Architects, We Butter the Bread with Butter, Lorna Shore"
+  },
+  "projects": {
+    "title": "Projektit",
+    "whereis": {
+      "name": "WhereIs – Henkilökohtainen inventaario mobiilisovellus",
+      "description": "Loin Android-sovelluksen, jonka avulla käyttäjät voivat seurata henkilökohtaisia tavaroitaan tallentamalla tavaroiden nimet, valokuvat, muistiinpanot, GPS-koordinaatit ja sijainnit interaktiiviselle kartalle. Sovellus käyttää Firebasea reaaliaikaiseen tietojen tallennukseen ja valokuvien isännöintiin varmistaen saumattoman synkronoinnin laitteiden välillä. Integroitu Google Maps API tarjoamaan käyttäjille dynaamisen ja intuitiivisen visuaalisen esityksen heidän tavaroidensa sijainneista. Rakennettu React Nativellä ja suunniteltu käytettävyyttä silmällä pitäen intuitiivisilla lomakkeilla, offline-tuen harkinnalla ja tehokkaalla pilveen synkronoinnilla tietojen eheyden ylläpitämiseksi."
+    },
+    "risk": {
+      "name": "Risk-simulaatiopelin parannukset",
+      "description": "Johdin tiimiprojektia perus risk-simulaatiopelin modernisoimiseksi ja laajentamiseksi hiomalla pelaamisen logiikkaa, suunnittelemalla käyttöliittymän uudelleen saavutettavuuden parantamiseksi ja parantamalla yleistä koodin laatua. Projektipäällikkönä ja pääavustajana koordinoin tehtävien delegointia, toteutin Excel-vientitoiminnot, otin käyttöön modulaarisen arkkitehtuurin ja integroin uuden riskiä logiikan, joka sisälsi todennäköisen käyttäytymisen ajan mittaan. Lisäsin tuen muokattaville riskiriveille, dynaamisille käyttöliittymän päivityksille, selkeämmille pisteiden selityksille ja suorituskyvyn kirjaamisen parannuksille pitäen samalla sovelluksen kevyenä ja ylläpidettävänä."
+    },
+    "cryptoknit": {
+      "name": "CryptoKnit – Tekstiilien steganografia portfolio",
+      "description": "Kehitin interaktiivisen web-portfolion opinnäytetyölleni, joka tutkii tekstiilien steganografiaa nykyaikaisilla ja historiallisilla kryptografiamenetelmillä. Projekti osoittaa, kuinka salaisia viestejä voidaan koodata neule- ja virkkauskuvioihin, yhdistämällä perinteiset käsityötekniikat nykyaikaisiin salausalgoritimeihin. Rakennettu responsiivinen yksisivuinen sovellus esittelemään tutkimustuloksia, toteutusesimerkkejä ja visuaalisia esityksiä kryptografisista neulekuvioista. Portfolio toimii sekä teknisenä esittelynä että koulutusresurssina kuitujen ja tietoturvan risteyskohdasta."
+    },
+    "viewGithub": "Näytä projekti GitHubissa"
+  },
+  "cv": {
+    "title": "Ansioluettelo",
+    "resumeType": "Ansioluettelon tyyppi",
+    "resumeTypeDesc": "Valitse mikä ansioluettelo haluat nähdä",
+    "primaryResume": "Ensisijainen ansioluettelo",
+    "nursingResume": "Sairaanhoitajan ansioluettelo",
+    "language": "Kieli",
+    "chooseLanguage": "Valitse"
+  },
+  "contact": {
+    "title": "Yhteystiedot",
+    "getInTouch": "Ota yhteyttä",
+    "getInTouchText": "Kyllä, on vuosi 2025 ja silti ihmisten täytyy 'ottaa yhteyttä'. Tekstiviesti tai sähköposti toimii parhaiten — koska rehellisesti, kukaan ei enää pidä puhelinsoitoista. Ota yhteyttä alla olevien kanavien kautta, ja vastaan kyllä."
+  }
+}

@@ -7,10 +7,12 @@ import Bunnies from '../assets/Bunnies.jpg';
 import Socks from '../assets/Socks.jpg';
 import Yarn from '../assets/Yarn.jpg';
 import RavelryLogo from '../assets/RavelryPrimaryLogo2020-Black.svg';
+import { useLanguage } from '../context/LanguageContext';
 
 const Hobbies = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [lightboxImage, setLightboxImage] = useState(null); // for lightbox
+  const { t } = useLanguage();
 
   useEffect(() => {
     setIsVisible(true);
@@ -29,9 +31,9 @@ const Hobbies = () => {
     <div className="text-center mb-12">
       <h1 className="text-5xl md:text-6xl font-bold mb-6">
         <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 bg-clip-text text-transparent">
-          My
+          {t('hobbies.title1')}
         </span>
-        <span className="text-gray-800"> Hobbies</span>
+        <span className="text-gray-800"> {t('hobbies.title2')}</span>
       </h1>
       <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-rose-500 mx-auto rounded-full"></div>
     </div>
@@ -53,10 +55,10 @@ const Hobbies = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center mr-4">
                   <span className="text-white text-xl">🍰</span>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Baking and Cooking</h2>
+                <h2 className="text-2xl font-bold text-gray-800">{t('hobbies.baking')}</h2>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
-                I love spending time in the kitchen, creating delicious treats and experimenting with new recipes.
+                {t('hobbies.bakingText')}
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                 {[Tart, Pie, Conchas].map((img, idx) => (
@@ -79,13 +81,13 @@ const Hobbies = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center mr-4">
                   <span className="text-white text-xl">🧶</span>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Knitting and Crochet</h2>
+                <h2 className="text-2xl font-bold text-gray-800">{t('hobbies.knitting')}</h2>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
-                One of my favorite hobbies is knitting and crochet. I have an extensive yarn stash and many projects in progress at the same time.
+                {t('hobbies.knittingText1')}
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Here's a link to my Ravelry page where you can see more projects:
+                {t('hobbies.knittingText2')}
               </p>
               <div className="mt-2 mb-4 flex justify-center">
                 <a href="https://www.ravelry.com/people/chelsea1605" target="_blank" rel="noopener noreferrer">
@@ -119,27 +121,36 @@ const Hobbies = () => {
             <div className={`bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl p-8 text-white shadow-lg hover:shadow-xl transition-all duration-500 ${
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
             }`} style={{ animationDelay: '300ms' }}>
-              <h3 className="text-2xl font-bold mb-6">Quick Facts</h3>
+              <h3 className="text-2xl font-bold mb-6">{t('hobbies.quickFacts')}</h3>
               <div className="space-y-4">
-                <div className="flex items-center">
-                  <span className="text-2xl mr-3">🍰</span>
-                  <div>
-                    <p className="font-semibold">Favorite Treats To Make</p>
-                    <p className="text-pink-100">Tarts, Pies, Conchas, Bread</p>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">🍰</span>
+                  <div className="flex flex-col items-start">
+                    <p className="font-semibold">{t('hobbies.favoriteTreats')}</p>
+                    <p className="text-pink-100">{t('hobbies.treatsValue')}</p>
                   </div>
                 </div>
-                <div className="flex items-center">
-                  <span className="text-2xl mr-3">🧶</span>
-                  <div>
-                    <p className="font-semibold">Knitting and Crochet Projects</p>
-                    <p className="text-pink-100">Shawls, Socks, Plushies, Sweaters, Beanies</p>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">🧶</span>
+                  <div className="flex flex-col items-start">
+                    <p className="font-semibold">{t('hobbies.knittingProjects')}</p>
+                    <p className="text-pink-100 text-left whitespace-pre-line"> {t('hobbies.projectsValue')} </p>
                   </div>
                 </div>
-                <div className="flex items-center">
-                  <span className="text-2xl mr-3">🎮</span>
-                  <div>
-                    <p className="font-semibold">Gaming</p>
-                    <p className="text-pink-100">PC Games such as GTA, Stardew Valley, Trine, R.E.P.O., 7 Days to Die, and many more</p>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">🎮</span>
+                  <div className="flex flex-col items-start">
+                    <p className="font-semibold">{t('hobbies.gaming')}</p>
+                    <p className="text-pink-100 text-left whitespace-pre-line">
+                      {t('hobbies.gamingValue')}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">🎸</span>
+                  <div className="flex flex-col items-start">
+                    <p className="font-semibold">{t('hobbies.music')}</p>
+                    <p className="text-pink-100 text-left whitespace-pre-line"> {t('hobbies.musicValue')} </p>
                   </div>
                 </div>
               </div>

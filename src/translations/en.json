@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "cv": "CV",
+    "hobbies": "Hobbies",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to",
+    "title": "Chelsea Norrgård's Portfolio",
+    "subtitle": "IT Professional & Registered Nurse from Vaasa, Finland",
+    "available": "Available for Work",
+    "hello": "Hello & Welcome!",
+    "helloText": "Hi, I'm Chelsea Norrgård — an American who somehow ended up in Finland. I traded Seattle rain for Finnish snow (questionable life choice, but hey, the summers are decent). This is my portfolio: part tech, part nursing, part 'how did I get here?' story. Buckle up.",
+    "discover": "What You'll Discover",
+    "discoverText": "Here you'll find my technical projects, nursing adventures, and hobbies like baking and knitting. Also, fair warning: I’m into modern metalcore, so yes, screaming dudes with guitars are my motivational soundtrack. If that scares you, maybe stick to the knitting section.",
+    "explore": "Explore My Journey",
+    "exploreText": "My career path is less 'straight line' and more 'rollercoaster with questionable safety checks.' From art to nursing to manufacturing to software development, I’ve collected skills like Pokémon cards. Feel free to poke around—just don’t expect a fairy-tale narrative.",
+    "thanks": "Thank You for Visiting!",
+    "thanksText": "Thanks for stopping by. Hopefully you’ll find something here that convinces you I’m worth hiring—or at least worth chatting with over coffee.",
+    "whyWork": "Why Work With Me?",
+    "whyWorkSub": "A unique blend of technical skills and human empathy (with a dash of sarcasm)",
+    "technical": "Technical Expertise",
+    "technicalDesc": "Modern web development skills with React, JavaScript, and full-stack capabilities",
+    "healthcare": "Healthcare Background",
+    "healthcareDesc": "Nursing experience brings unique perspective to user-centered design and problem-solving",
+    "global": "Global Perspective",
+    "globalDesc": "Multicultural experience from USA to Finland, bringing adaptability, fresh insights, and a healthy dose of skepticism"
+  },
+  "about": {
+    "title1": "About",
+    "title2": "Me",
+    "journey": "My Journey",
+    "journeyText1": "My name is Chelsea Norrgård (nee Harris). Originally from Seattle, Washington, USA, I now permanently reside in Vaasa, Finland — because apparently trading endless rain for endless snow seemed like a good idea at the time.",
+    "journeyText2": "After graduating from Washington State University with a BA in Fine Arts and a minor in Communications in 2006, I dove headfirst into the thrilling world of bureaucratic office life. I worked at the Department of State and a law firm, where I focused on privacy and legal compliance — because nothing screams excitement like paperwork and red tape.",
+    "education": "Education & Growth (or at least survival)",
+    "educationText1": "In late 2014, I took a break from corporate monotony to work at a dog grooming shop while juggling community college courses and plotting a move to Finland. By mid-2016, I was accepted into nursing school at Novia University of Applied Sciences in Vaasa, officially sealing my fate. I graduated as a registered nurse in December 2019, proving that sleep deprivation can, in fact, be a lifestyle.",
+    "educationText2": "During my nursing career, I worked mostly in elderly care homes and later with children under 6, focusing on severe progressive illnesses and premature birth complications. It was rewarding, sure, but also a constant reminder that empathy is exhausting. Eventually, I decided to switch careers before I burned out completely.",
+    "itCareer": "IT Career (because why not?)",
+    "itCareerText": "In January 2022, I jumped ship into IT by enrolling in VAMK's program and picking up flexible work at Danfoss on the production line. Despite the chaos of career changes, I’m still sharpening my coding skills and chasing opportunities in tech — because debugging code is somehow less soul‑crushing than bureaucracy or night shifts.",
+    "personal": "Personal Life",
+    "personalText": "I’m married to Staffan Norrgård, whom I met during nursing school and married in June 2019. We share our home with Lucy, a 14‑year‑old chihuahua who runs the household with an iron paw. In September 2022, I got Finnish citizenship, which means I now have the privilege of complaining about both American and Finnish politics.",
+    "quickFacts": "Quick Facts",
+    "location": "Location",
+    "locationValue": "Vaasa, Finland",
+    "educationLabel": "Education",
+    "educationValue1": "BA Fine Arts",
+    "educationValue2": "BSc Nursing",
+    "educationValue3": "BEng Information Technology",
+    "citizenship": "Citizenship",
+    "citizenshipValue": "Finland & USA",
+    "focus": "Focus",
+    "focusValue": "IT & Web Development",
+    "coreStrengths": "Core Strengths (allegedly)",
+    "problemSolving": "Problem Solving",
+    "communication": "Communication",
+    "empathy": "Empathy",
+    "technicalLearning": "Technical Learning",
+    "api": "Integrating APIs",
+    "linux": "Linux (Ubuntu and Kali)",
+    "git": "Version Control (Git)",
+    "myLife": "My Life in Photos",
+    "myLifeSub": "Moments that matter to me (or at least look good online)",
+    "wedding": "Wedding Day",
+    "weddingDesc": "Married to Staffan in June 2019",
+    "lucy": "My Chihuahua Lucy",
+    "lucyDesc": "Tiny dictator, beloved family member",
+    "finland": "Beautiful Finland",
+    "finlandDesc": "My adopted home country"
+  },
+  "hobbies": {
+    "title1": "My",
+    "title2": "Hobbies",
+    "baking": "Baking and Cooking",
+    "bakingText": "I spend way too much time in the kitchen, making treats that disappear faster than I can photograph them. Experimenting with recipes is fun until you realize 'fun' also means cleaning up.",
+    "knitting": "Knitting and Crochet",
+    "knittingText1": "Knitting and crochet keep me busy — and by busy, I mean drowning in yarn. My stash could probably qualify as a fire hazard, and yes, I have more projects in progress than I’ll ever finish.",
+    "knittingText2": "Here’s a link to my Ravelry page where you can see some proof that I do occaisionally finish things:",
+    "quickFacts": "Quick Facts",
+    "favoriteTreats": "Favorite Treats To Make",
+    "treatsValue": "Tarts, Pies, Conchas, Bread",
+    "knittingProjects": "Knitting and Crochet Projects",
+    "projectsValue": "Shawls, Socks, Plushies, Sweaters, Beanies",
+    "gaming": "Gaming",
+    "gamingValue": "PC Games such as GTA, Stardew Valley, Trine, R.E.P.O., 7 Days to Die, and many more",
+    "music": "Music",
+    "musicValue": "Electric Callboy, Imminence, Bad Omens, Architects, We Butter the Bread with Butter, Lorna Shore"
+  },
+  "projects": {
+    "title": "Projects",
+    "whereis": {
+      "name": "WhereIs – Personal Inventory Mobile App",
+      "description": "Created an Android app that allows users to track personal belongings by storing item names, photos, notes, GPS coordinates, and locations on an interactive map. The app uses Firebase for real-time data storage and photo hosting, ensuring seamless synchronization across devices. Integrated Google Maps API to provide users with a dynamic and intuitive visual representation of their items' locations. Built with React Native and designed for usability with intuitive forms, offline support considerations, and efficient cloud syncing to maintain data integrity."
+    },
+    "risk": {
+      "name": "Risk Simulation Game Enhancement",
+      "description": "Led a team project to modernize and expand a basic risk simulation game by refining gameplay logic, redesigning the user interface to improve accessibility, and enhancing overall code quality. As project manager and core contributor, I coordinated task delegation, implemented Excel export features, introduced modular architecture, and integrated new risk logic that incorporated probabilistic behavior over time. Added support for editable risk entries, dynamic UI updates, clearer scoring explanations, and performance logging improvements while keeping the app lightweight and maintainable."
+    },
+    "cryptoknit": {
+      "name": "CryptoKnit – Textile Steganography Portfolio",
+      "description": "Developed an interactive web portfolio for my thesis exploring textile steganography with modern and historical cryptography methods. The project demonstrates how secret messages can be encoded in knitting and crochet patterns, combining traditional craft techniques with contemporary encryption algorithms. Built a responsive single-page application to showcase research findings, implementation examples, and visual demonstrations of cryptographic knitting patterns. The portfolio serves as both a technical demonstration and an educational resource on the intersection of fiber arts and information security."
+    },
+    "viewGithub": "View Project on GitHub"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "resumeType": "Resume Type",
+    "resumeTypeDesc": "Select which resume you'd like to view",
+    "primaryResume": "Primary Resume",
+    "nursingResume": "Nursing Resume",
+    "language": "Language",
+    "chooseLanguage": "Choose"
+  },
+  "contact": {
+    "title": "Contact",
+    "getInTouch": "Get in Touch",
+    "getInTouchText": "Yes, it's 2025 and people still have to 'get in touch.' Texting or email works best — because let's be honest, nobody likes phone calls anymore. Reach out through the platforms below, and I'll reply."
+  }
+}

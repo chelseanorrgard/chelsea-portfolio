@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { useLanguage } from '../context/LanguageContext';
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     setIsVisible(true);
@@ -26,7 +28,7 @@ const Contact = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 bg-clip-text text-transparent">
-                Contact
+                {t('contact.title')}
               </span>
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-rose-500 mx-auto rounded-full"></div>
@@ -39,9 +41,9 @@ const Contact = () => {
         <div className={`bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-500 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">{t('contact.getInTouch')}</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            I’d love to hear from you! Feel free to reach out through any of the following platforms:
+            {t('contact.getInTouchText')}
           </p>
           <div className="space-y-4">
             {contacts.map((contact, index) => (

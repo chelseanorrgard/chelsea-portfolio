@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import ProfilePhoto from '../assets/ProfilePhoto.jpg';
+import { useLanguage } from '../context/LanguageContext';
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     setIsVisible(true);
@@ -19,14 +21,14 @@ const Home = () => {
     >
       <div className="text-center mb-12">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          <span className="text-gray-800">Welcome to</span>
+          <span className="text-gray-800">{t('home.welcome')}</span>
           <br />
           <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 bg-clip-text text-transparent">
-            Chelsea Norrgård's Portfolio
+            {t('home.title')}
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-6 leading-relaxed max-w-3xl mx-auto">
-          IT Professional & Registered Nurse from Vaasa, Finland
+          {t('home.subtitle')}
         </p>
         <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-rose-500 mx-auto rounded-full mb-12"></div>
       </div>
@@ -53,7 +55,7 @@ const Home = () => {
 
             {/* Floating badge */}
             <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-2 rounded-full shadow-lg">
-              <span className="font-semibold">Available for Work</span>
+              <span className="font-semibold">{t('home.available')}</span>
             </div>
           </div>
         </div>
@@ -71,10 +73,10 @@ const Home = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center mr-4">
                   <span className="text-white text-xl">👋</span>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Hello & Welcome!</h2>
+                <h2 className="text-2xl font-bold text-gray-800">{t('home.hello')}</h2>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg">
-                Hello! I'm Chelsea Norrgård, a passionate and dedicated professional with expertise in IT and Nursing. Welcome to my portfolio, where you can explore my diverse skill set, work experiences, and personal interests.
+                {t('home.helloText')}
               </p>
             </div>
 
@@ -84,10 +86,10 @@ const Home = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center mr-4">
                   <span className="text-white text-xl">🎯</span>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">What You'll Discover</h2>
+                <h2 className="text-2xl font-bold text-gray-800">{t('home.discover')}</h2>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg">
-                Whether you're here to learn about my technical projects, see my nursing achievements, or discover my hobbies like baking and knitting, you've come to the right place.
+                {t('home.discoverText')}
               </p>
             </div>
 
@@ -97,33 +99,33 @@ const Home = () => {
                 <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center mr-4">
                   <span className="text-white text-xl">🧭</span>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Explore My Journey</h2>
+                <h2 className="text-2xl font-bold text-gray-800">{t('home.explore')}</h2>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg mb-6">
-                Feel free to navigate through the sections to get a deeper understanding of my journey and the work I love to do. If you wish to connect, head over to the contact section.
+                {t('home.exploreText')}
               </p>
               
               {/* Quick navigation buttons */}
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <a href="/about" className="group bg-pink-50 hover:bg-pink-100 rounded-xl p-4 text-center transition-all duration-300 hover:-translate-y-1">
                   <div className="text-2xl mb-2 group-hover:scale-110 transition-transform">👩‍💼</div>
-                  <span className="text-sm font-medium text-gray-700">About Me</span>
+                  <span className="text-sm font-medium text-gray-700">{t('nav.about')}</span>
                 </a>
                 <a href="/projects" className="group bg-rose-50 hover:bg-rose-100 rounded-xl p-4 text-center transition-all duration-300 hover:-translate-y-1">
                   <div className="text-2xl mb-2 group-hover:scale-110 transition-transform">💻</div>
-                  <span className="text-sm font-medium text-gray-700">Projects</span>
+                  <span className="text-sm font-medium text-gray-700">{t('nav.projects')}</span>
                 </a>
                 <a href="/cv" className="group bg-pink-50 hover:bg-pink-100 rounded-xl p-4 text-center transition-all duration-300 hover:-translate-y-1">
                   <div className="text-2xl mb-2 group-hover:scale-110 transition-transform">📄</div>
-                  <span className="text-sm font-medium text-gray-700">Resume</span>
+                  <span className="text-sm font-medium text-gray-700">{t('nav.cv')}</span>
                 </a>
                 <a href="/hobbies" className="group bg-rose-50 hover:bg-rose-100 rounded-xl p-4 text-center transition-all duration-300 hover:-translate-y-1">
                   <div className="text-2xl mb-2 group-hover:scale-110 transition-transform">🎨</div>
-                  <span className="text-sm font-medium text-gray-700">Hobbies</span>
+                  <span className="text-sm font-medium text-gray-700">{t('nav.hobbies')}</span>
                 </a>
                 <a href="/contact" className="group bg-pink-50 hover:bg-pink-100 rounded-xl p-4 text-center transition-all duration-300 hover:-translate-y-1">
                   <div className="text-2xl mb-2 group-hover:scale-110 transition-transform">📞</div>
-                  <span className="text-sm font-medium text-gray-700">Contact</span>
+                  <span className="text-sm font-medium text-gray-700">{t('nav.contact')}</span>
                 </a>
               </div>
             </div>
@@ -134,10 +136,10 @@ const Home = () => {
                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4">
                   <span className="text-2xl">🙏</span>
                 </div>
-                <h2 className="text-2xl font-bold">Thank You for Visiting!</h2>
+                <h2 className="text-2xl font-bold">{t('home.thanks')}</h2>
               </div>
               <p className="text-pink-100 leading-relaxed text-lg">
-                Thank you for visiting, and I hope you enjoy learning more about my professional and personal endeavors!
+                {t('home.thanksText')}
               </p>
             </div>
           </div>
@@ -148,8 +150,8 @@ const Home = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`} style={{ animationDelay: '600ms' }}>
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why Work With Me?</h2>
-            <p className="text-gray-600 text-lg">A unique blend of technical skills and human empathy</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">{t('home.whyWork')}</h2>
+            <p className="text-gray-600 text-lg">{t('home.whyWorkSub')}</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -157,24 +159,24 @@ const Home = () => {
               <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl text-white">💻</span>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">Technical Expertise</h3>
-              <p className="text-gray-600">Modern web development skills with React, JavaScript, and full-stack capabilities</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">{t('home.technical')}</h3>
+              <p className="text-gray-600">{t('home.technicalDesc')}</p>
             </div>
 
             <div className="text-center p-8 rounded-2xl bg-white/70 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl text-white">🏥</span>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">Healthcare Background</h3>
-              <p className="text-gray-600">Nursing experience brings unique perspective to user-centered design and problem-solving</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">{t('home.healthcare')}</h3>
+              <p className="text-gray-600">{t('home.healthcareDesc')}</p>
             </div>
 
             <div className="text-center p-8 rounded-2xl bg-white/70 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl text-white">🌍</span>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">Global Perspective</h3>
-              <p className="text-gray-600">Multicultural experience from USA to Finland, bringing adaptability and fresh insights</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">{t('home.global')}</h3>
+              <p className="text-gray-600">{t('home.globalDesc')}</p>
             </div>
           </div>
         </div>

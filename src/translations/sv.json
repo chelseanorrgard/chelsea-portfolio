@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Hem",
+    "about": "Om mig",
+    "cv": "CV",
+    "hobbies": "Hobbyer",
+    "projects": "Projekt",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "welcome": "Välkommen till",
+    "title": "Chelsea Norrgårds Portfolio",
+    "subtitle": "IT-proffs & sjukskötare från Vasa, Finland",
+    "available": "Tillgänglig för arbete",
+    "hello": "Hej & Välkommen!",
+    "helloText": "Hej, jag är Chelsea Norrgård — en amerikan som på något sätt hamnade i Finland. Jag bytte Seattles regn mot Vasas snö (inte mitt smartaste drag, men somrarna är åtminstone bra). Det här är min portfolio: del teknik, del vård, del 'hur hamnade jag här egentligen?' historia. Håll i dig.",
+    "discover": "Vad du kommer att upptäcka",
+    "discoverText": "Här hittar du mina tekniska projekt, vårdäventyr och hobbyer som bakning och stickning. Varning: jag lyssnar på modern metalcore, så ja, skrikande killar med gitarrer är mitt motivationssoundtrack. Om det skrämmer dig, håll dig till stickningsdelen.",
+    "explore": "Utforska min resa",
+    "exploreText": "Min karriärväg är mer berg-och-dalbana än rak linje. Konst, vård, industri och slutligen mjukvaruutveckling—jag har samlat färdigheter som Pokémonkort. Utforska gärna, men förvänta dig inte en sagoberättelse.",
+    "thanks": "Tack för ditt besök!",
+    "thanksText": "Tack för att du tittade in. Förhoppningsvis hittar du något som övertygar dig om att jag är värd att anställa—eller åtminstone värd en kopp kaffe.",
+    "whyWork": "Varför jobba med mig?",
+    "whyWorkSub": "En unik blandning av tekniska färdigheter, mänsklig empati och en nypa sarkasm",
+    "technical": "Teknisk expertis",
+    "technicalDesc": "Moderna webbutvecklingsfärdigheter med React, JavaScript och full-stack-funktioner",
+    "healthcare": "Vårdarbakgrund",
+    "healthcareDesc": "Sjukskötareerfarenhet ger ett unikt perspektiv på användarcentrerad design och problemlösning",
+    "global": "Globalt perspektiv",
+    "globalDesc": "Mångkulturell erfarenhet från USA till Finland, vilket ger anpassningsförmåga, nya insikter och en sund dos skepsis"
+  },
+  "about": {
+    "title1": "Om",
+    "title2": "Mig",
+    "journey": "Min resa",
+    "journeyText1": "Jag heter Chelsea Norrgård (född Harris). Ursprungligen från Seattle, Washington, USA, bor jag nu permanent i Vasa, Finland — eftersom det tydligen verkade smart att byta oändligt regn mot oändlig snö.",
+    "journeyText2": "Efter examen från Washington State University med en BA i konst och en minor i kommunikation 2006 kastade jag mig huvudstupa in i den spännande världen av byråkratiskt kontorsliv. Jag arbetade på utrikesdepartementet och en advokatbyrå med fokus på integritet och juridisk efterlevnad — eftersom inget skriker spänning lika mycket som papper och röda band.",
+    "education": "Utbildning & Tillväxt (eller åtminstone överlevnad)",
+    "educationText1": "I slutet av 2014 tog jag en paus från företagsmonotoni för att jobba i en hundfrisersalong samtidigt som jag gick på community college och planerade en flytt till Finland. I mitten av 2016 kom jag in på sjuksköterskeprogrammet vid Novia yrkeshögskola i Vasa, vilket definitivt beseglade mitt öde. Jag tog examen som sjuksköterska i december 2019, vilket bevisar att sömnbrist faktiskt kan vara en livsstil.",
+    "educationText2": "Under min sjuksköterskekarriär arbetade jag mest på äldreboenden och senare med barn under 6 år, med fokus på svåra progressiva sjukdomar och komplikationer vid för tidig födsel. Det var givande, absolut, men också en ständig påminnelse om att empati är utmattande. Till slut bytte jag karriär innan jag brände ut helt.",
+    "itCareer": "IT-karriär (för varför inte?)",
+    "itCareerText": "I januari 2022 hoppade jag över till IT genom att börja på VAMK:s program och ta flexibelt arbete på Danfoss produktionslinje. Trots kaoset med karriärbyten slipar jag fortfarande mina kodningskunskaper och jagar möjligheter inom tech — eftersom felsökning av kod på något sätt är mindre själsdödande än byråkrati eller nattpass.",
+    "personal": "Personligt liv",
+    "personalText": "Jag är gift med Staffan Norrgård, som jag träffade under sjuksköterskeutbildningen och gifte mig med i juni 2019. Vi bor tillsammans med Lucy, en 14‑årig chihuahua som styr hushållet med järntass. I september 2022 fick jag finskt medborgarskap, vilket innebär att jag nu har privilegiet att klaga på både amerikansk och finsk politik.",
+    "quickFacts": "Snabbfakta",
+    "location": "Plats",
+    "locationValue": "Vasa, Finland",
+    "educationLabel": "Utbildning",
+    "educationValue1": "BA Konst",
+    "educationValue2": "BSc Sjukskötare",
+    "educationValue3": "BEng Informationsteknik",
+    "citizenship": "Medborgarskap",
+    "citizenshipValue": "Finland & USA",
+    "focus": "Fokus",
+    "focusValue": "IT & Webbutveckling",
+    "coreStrengths": "Kärnstyrkor (påstådda)",
+    "problemSolving": "Problemlösning",
+    "communication": "Kommunikation",
+    "empathy": "Empati",
+    "technicalLearning": "Tekniskt lärande",
+    "api": "Integrering av API:er",
+    "linux": "Linux (Ubuntu och Kali)",
+    "git": "Versionshantering (Git)",
+    "myLife": "Mitt liv i bilder",
+    "myLifeSub": "Ögonblick som betyder något för mig (eller åtminstone ser bra ut online)",
+    "wedding": "Bröllopsdag",
+    "weddingDesc": "Gift med Staffan i juni 2019",
+    "lucy": "Min chihuahua Lucy",
+    "lucyDesc": "Liten diktator, älskad familjemedlem",
+    "finland": "Vackra Finland",
+    "finlandDesc": "Mitt adopterade hemland"
+  },
+  "hobbies": {
+    "title1": "Mina",
+    "title2": "Hobbyer",
+    "baking": "Bakning och matlagning",
+    "bakingText": "Jag tillbringar alldeles för mycket tid i köket med att göra godsaker som försvinner snabbare än jag hinner fotografera dem. Att experimentera med recept är kul tills man inser att 'kul' också betyder städning.",
+    "knitting": "Stickning och virkning",
+    "knittingText1": "Stickning och virkning håller mig sysselsatt — och med sysselsatt menar jag att jag drunknar i garn. Mitt lager skulle nog kunna klassas som en brandrisk, och ja, jag har fler projekt på gång än jag någonsin kommer att avsluta.",
+    "knittingText2": "Här är en länk till min Ravelry-sida där du kan se bevis på att jag ibland faktiskt avslutar något:",
+    "quickFacts": "Snabbfakta",
+    "favoriteTreats": "Favoritbakverk att göra",
+    "treatsValue": "Pajer, Tårtor, Conchas, Bröd",
+    "knittingProjects": "Sticknings- och virkningsprojekt",
+    "projectsValue": "Sjalar, Sockor, Gosedjur, Tröjor, Mössor",
+    "gaming": "Spel",
+    "gamingValue": "PC-spel som GTA, Stardew Valley, Trine, R.E.P.O., 7 Days to Die och många fler",
+    "music": "Musik",
+    "musicValue": "Electric Callboy, Imminence, Bad Omens, Architects, We Butter the Bread with Butter, Lorna Shore"
+  },
+  "projects": {
+    "title": "Projekt",
+    "whereis": {
+      "name": "WhereIs – Personlig inventarie mobilapp",
+      "description": "Skapade en Android-app som låter användare spåra personliga tillhörigheter genom att lagra föremålsnamn, foton, anteckningar, GPS-koordinater och platser på en interaktiv karta. Appen använder Firebase för realtidsdatalagring och fotohosting, vilket säkerställer sömlös synkronisering mellan enheter. Integrerade Google Maps API för att ge användarna en dynamisk och intuitiv visuell representation av deras föremåls platser. Byggd med React Native och designad för användbarhet med intuitiva formulär, offline-stöd överväganden och effektiv molnsynkronisering för att upprätthålla dataintegritet."
+    },
+    "risk": {
+      "name": "Risk Simulationsspel förbättring",
+      "description": "Ledde ett teamprojekt för att modernisera och utöka ett grundläggande risksimuleringsspel genom att förfina spellogiken, omdesigna användargränssnittet för att förbättra tillgängligheten och förbättra den övergripande kodkvaliteten. Som projektledare och kärnbidragsgivare koordinerade jag uppgiftsdelegering, implementerade Excel-exportfunktioner, introducerade modulär arkitektur och integrerade ny risklogik som inkorporerade probabilistiskt beteende över tid. Lade till stöd för redigerbara riskposter, dynamiska UI-uppdateringar, tydligare poängförklaringar och prestandaloggningsförbättringar samtidigt som appen hölls lätt och underhållbar."
+    },
+    "cryptoknit": {
+      "name": "CryptoKnit – Textil steganografi portfolio",
+      "description": "Utvecklade en interaktiv webbportfolio för min avhandling som utforskar textil steganografi med moderna och historiska kryptografimetoder. Projektet visar hur hemliga meddelanden kan kodas i stick- och virkningsmönster, kombinera traditionella hantverkstekniker med moderna krypteringsalgoritmer. Byggde en responsiv ensidig applikation för att visa forskningsresultat, implementeringsexempel och visuella demonstrationer av kryptografiska stickmönster. Portfolion fungerar både som en teknisk demonstration och en utbildningsresurs om korsningen mellan fiberkonst och informationssäkerhet."
+    },
+    "viewGithub": "Visa projekt på GitHub"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "resumeType": "CV-typ",
+    "resumeTypeDesc": "Välj vilket CV du vill se",
+    "primaryResume": "Primärt CV",
+    "nursingResume": "Sjukskötare CV",
+    "language": "Språk",
+    "chooseLanguage": "Välj"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "getInTouch": "Kom i kontakt",
+    "getInTouchText": "Ja, det är 2025 och folk måste fortfarande 'ta kontakt'. Sms eller e‑post fungerar bäst — för ärligt talat, ingen gillar telefonsamtal längre. Hör av dig via plattformarna nedan, så svarar jag."
+  }
+}

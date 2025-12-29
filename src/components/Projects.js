@@ -1,23 +1,22 @@
 import React, { useState, useEffect } from 'react';
-
 import whereis1 from '../assets/whereis-1.png';
 import whereis2 from '../assets/whereis-2.png';
 import whereis3 from '../assets/whereis-3.png';
 import whereis4 from '../assets/whereis-4.png';
-
 import risk1 from '../assets/risk-1.png';
 import risk2 from '../assets/risk-2.png';
 import risk3 from '../assets/risk-3.png';
 import risk4 from '../assets/risk-4.png';
-
 import knit1 from '../assets/knit-1.png';
 import knit2 from '../assets/knit-2.png';
 import knit3 from '../assets/knit-3.png';
 import knit4 from '../assets/knit-4.png';
+import { useLanguage } from '../context/LanguageContext';
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [modalImg, setModalImg] = useState(null);
+  const { t } = useLanguage();
 
   useEffect(() => {
     setIsVisible(true);
@@ -25,23 +24,23 @@ const Projects = () => {
 
   const projects = [
     {
-      name: 'WhereIs – Personal Inventory Mobile App',
+      name: t('projects.whereis.name'),
       tech: ['React Native', 'Expo', 'JavaScript', 'Google Maps API', 'Firebase'],
-      description: `Created an Android app that allows users to track personal belongings by storing item names, photos, notes, GPS coordinates, and locations on an interactive map. The app uses Firebase for real-time data storage and photo hosting, ensuring seamless synchronization across devices. Integrated Google Maps API to provide users with a dynamic and intuitive visual representation of their items' locations. Built with React Native and designed for usability with intuitive forms, offline support considerations, and efficient cloud syncing to maintain data integrity.`,
+      description: t('projects.whereis.description'),
       link: 'https://github.com/chelseanorrgard/WhereIs',
       screenshots: [whereis1, whereis2, whereis3, whereis4],
     },
     {
-      name: 'Risk Simulation Game Enhancement',
+      name: t('projects.risk.name'),
       tech: ['JavaScript', 'React', 'XLSX', 'HTML/CSS'],
-      description: `Led a team project to modernize and expand a basic risk simulation game by refining gameplay logic, redesigning the user interface to improve accessibility, and enhancing overall code quality. As project manager and core contributor, I coordinated task delegation, implemented Excel export features, introduced modular architecture, and integrated new risk logic that incorporated probabilistic behavior over time. Added support for editable risk entries, dynamic UI updates, clearer scoring explanations, and performance logging improvements while keeping the app lightweight and maintainable.`,
+      description: t('projects.whereis.description'),
       link: 'https://github.com/elifturhann/RiskSimuApp',
       screenshots: [risk1, risk2, risk3, risk4],
     },
     {
-      name: 'CryptoKnit – Textile Steganography Portfolio',
+      name: t('projects.cryptoknit.name'),
       tech: ['React', 'JavaScript', 'HTML/CSS', 'Cryptography', 'Steganography'],
-      description: `Developed an interactive web portfolio for my thesis exploring textile steganography with modern and historical cryptography methods. The project demonstrates how secret messages can be encoded in knitting and crochet patterns, combining traditional craft techniques with contemporary encryption algorithms. Built a responsive single-page application to showcase research findings, implementation examples, and visual demonstrations of cryptographic knitting patterns. The portfolio serves as both a technical demonstration and an educational resource on the intersection of fiber arts and information security.`,
+      description: t('projects.cryptoknit.description'),
       link: 'https://github.com/chelseanorrgard/crypto-knit',
       screenshots: [knit1, knit2, knit3, knit4],
     },
@@ -58,7 +57,7 @@ const Projects = () => {
         <div className="text-center mb-12">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 bg-clip-text text-transparent">
-              Projects
+              {t('projects.title')}
             </span>
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-rose-500 mx-auto rounded-full"></div>
@@ -107,7 +106,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="inline-block mt-2 px-6 py-3 bg-pink-500 text-white rounded-full shadow-md hover:bg-pink-600 transition"
               >
-                View Project on GitHub
+                {t('projects.viewGithub')}
               </a>
             </div>
           ))}
