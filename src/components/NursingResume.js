@@ -89,31 +89,31 @@ const NursingResume = () => {
         <p>{t('resume.nursing.experience.training.description')}</p>
       </div>
 
-      <h2 className="text-2xl font-bold mb-2 text-pink-500">{t('resume.nursing.education.title')}</h2>
+      <h2 className="text-2xl font-bold mb-2 text-pink-500">{t('resume.education.title')}</h2>
       
-      <h3 className="text-lg font-bold mb-1">{t('resume.nursing.education.vamk.title')}</h3>
-      <p className="italic mb-1">{t('resume.nursing.education.vamk.location')}</p>
+      <h3 className="text-lg font-bold mb-1">{t('resume.education.vamk.title')}</h3>
+      <p className="italic mb-1">{t('resume.education.vamk.location')}</p>
       <ul className="list-disc list-inside mb-4">
-        <li>{t('resume.nursing.education.vamk.degree')}</li>
+        <li>{t('resume.education.vamk.degree')}</li>
       </ul>
 
-      <h3 className="text-lg font-bold mb-1">{t('resume.nursing.education.eduvamia.title')}</h3>
-      <p className="italic mb-1">{t('resume.nursing.education.eduvamia.location')}</p>
+      <h3 className="text-lg font-bold mb-1">{t('resume.education.eduvamia.title')}</h3>
+      <p className="italic mb-1">{t('resume.education.eduvamia.location')}</p>
       <ul className="list-disc list-inside mb-4">
-        <li>{t('resume.nursing.education.eduvamia.program')}</li>
-        <li>{t('resume.nursing.education.eduvamia.details')}</li>
+        <li>{t('resume.education.eduvamia.program')}</li>
+        <li>{t('resume.education.eduvamia.details')}</li>
       </ul>
 
-      <h3 className="text-lg font-bold mb-1">{t('resume.nursing.education.novia.title')}</h3>
-      <p className="italic mb-1">{t('resume.nursing.education.novia.location')}</p>
+      <h3 className="text-lg font-bold mb-1">{t('resume.education.novia.title')}</h3>
+      <p className="italic mb-1">{t('resume.education.novia.location')}</p>
       <ul className="list-disc list-inside mb-4">
-        <li>{t('resume.nursing.education.novia.degree')}</li>
+        <li>{t('resume.education.novia.degree')}</li>
       </ul>
 
-      <h3 className="text-lg font-bold mb-1">{t('resume.nursing.education.wsu.title')}</h3>
-      <p className="italic mb-1">{t('resume.nursing.education.wsu.location')}</p>
+      <h3 className="text-lg font-bold mb-1">{t('resume.education.wsu.title')}</h3>
+      <p className="italic mb-1">{t('resume.education.wsu.location')}</p>
       <ul className="list-disc list-inside mb-4">
-        <li>{t('resume.nursing.education.wsu.degree')}</li>
+        <li>{t('resume.education.wsu.degree')}</li>
       </ul>
 
       <h2 className="text-2xl font-bold mb-2 text-pink-500">{t('resume.languages.title')}</h2>

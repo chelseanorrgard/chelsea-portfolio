@@ -115,87 +115,56 @@
   },
   "resume": {
     "it": {
-      "objective": {
-        "title": "OBJECTIVE",
-        "point1": "Dynamic and dedicated Information Technology student with a diverse background in nursing, law, and government agencies, poised to transition into a career as a Software Engineer.",
-        "point2": "Proficient in JavaScript, C, HTML, CSS, and React, with a passion for creating intuitive user experiences and driving innovation in software development.",
-        "point3": "Skilled in software testing methodologies, including unit testing, and adept at troubleshooting programming errors.",
-        "point4": "A collaborative team player with strong communication skills, committed to delivering high-quality code and supporting organizational growth through continuous learning and agile development practices."
-      },
       "skills": {
-        "title": "SKILLS",
-        "point1": "Open-minded with extensive experience in multicultural environments.",
-        "point2": "Native English speaker with B1 level proficiency in Finnish and Swedish.",
-        "point3": "Independent worker with strong organizational and confidentiality skills.",
-        "point4": "Experienced in creating lean processes through logical evaluation.",
-        "point5": "Proficient in Operating Systems, Java, HTML, CSS, C, Front-end Development, Object-Oriented Programming, Application Development, Agile Software Development, Local Area Networks, Telecommunications, Fieldbuses, Electronics, and Digital Electronics.",
-        "point6": "Authorized to work in the USA and the EU/Schengen area due to dual citizenship (USA and Finland)."
+        "title": "TECHNICAL SKILLS",
+        "point1": "JavaScript, React, Node.js, Python (intermediate), HTML5, CSS3, MongoDB, Firebase, Rust, Figma, Angular.js, Vista Create (formerly Crello), Azure, Git & GitHub (version control), Google Maps API, RESTful APIs, React Native, PowerShell, Angular.js, Power BI, Linux (primarily Kali and Ubuntu)"
       },
       "experience": {
         "title": "WORK EXPERIENCE",
         "danfoss": {
-          "title": "Production – Danfoss via Barona",
+          "title": "Production – Danfoss Drives (via Barona)",
           "location": "Vaasa, Finland | June 2022 – February 2024",
-          "point1": "Assembled frequency converters and conducted basic quality assurance testing.",
-          "point2": "Maintained production standards and quotas."
+          "point1": "Assembled frequency converters from frame to final product, including circuit boards, SKIIPs, and cabling.",
+          "point2": "Performed post-production quality checks using automated test ovens.",
+          "point3": "Logged all production steps in SAP, scanning barcodes to ensure traceability.",
+          "point4": "Rotated across stations, working both independently and as part of a team."
         },
         "inmedi": {
-          "title": "Registered Nurse – Inmedi Oy",
+          "title": "Registered Nurse – InMedi Oy",
           "location": "Vaasa, Finland | October 2020 – June 2022",
-          "point1": "Provided pediatric and hospice care for severely ill children.",
-          "point2": "Acted as a liaison between parents and care team.",
-          "point3": "Documented patient care and communicated effectively with team members."
+          "point1": "Provided overnight pediatric and hospice care for severely ill children, working independently in high-responsibility situations.",
+          "point2": "Documented all care activities to ensure accurate and seamless handover to day teams.",
+          "point3": "Maintained clear communication with families and care teams to support continuity of care."
         },
         "bishop": {
           "title": "Lead Foreclosure Clerk – Bishop, White, Marshall & Weibel",
           "location": "Seattle, WA USA | October 2012 – November 2014",
-          "point1": "Managed foreclosure referrals and assisted in file compilation.",
-          "point2": "Developed process improvements, including an electronic referral reporting system."
+          "point1": "Supervised the File Opening Department and served as liaison between banks and internal processing teams.",
+          "point2": "Conducted initial case checks, including property, financial, and judicial records.",
+          "point3": "Designed and implemented an office-wide electronic tracking system, replacing a paper-based workflow and improving file traceability.",
+          "point4": " Trained new staff and streamlined referral workflows through digital process improvements."
         },
         "state": {
-          "title": "Passport Processor and Communications Specialist – Department of State",
+          "title": "Communications Specialist – Department of State",
           "location": "Seattle, WA USA | March 2007 – July 2012",
-          "point1": "Processed passports and maintained communication with applicants.",
-          "point2": "Assisted adjudication staff with applicant-related tasks.",
-          "point3": "Served as a point of contact for applicants and passport acceptance agents."
-        }
-      },
-      "education": {
-        "title": "EDUCATION",
-        "vamk": {
-          "title": "Vaasa University of Applied Sciences",
-          "location": "Vaasa, Finland | Expected graduation in 2026",
-          "degree": "Currently studying for a Bachelor of Engineering in Information Technology."
-        },
-        "eduvamia": {
-          "title": "Oy Eduvamia Ab",
-          "location": "Vaasa, Finland | 2020",
-          "program": "Integration Training / Kotoutumiskoulutus",
-          "details": "Concurrently completed Finnish for Nurses (Sairaanhoitajan Suomi) and earned B1 level YKI certificate (Yleiset kielitutkinnot)."
-        },
-        "novia": {
-          "title": "Yrkeshögskolan Novia",
-          "location": "Vaasa, Finland | 2016 – 2019",
-          "degree": "Bachelor of Nursing"
-        },
-        "wsu": {
-          "title": "Washington State University",
-          "location": "Pullman, WA, USA | 2002 – 2006",
-          "degree": "Bachelor of Art in Fine Arts with a minor in Communication"
+          "point1": "Acted as liaison between applicants, passport acceptance agents, and internal adjudication officers.",
+          "point2": "Managed emergency passport requests, call support, and front-desk interactions.",
+          "point3": "Handled mail intake and outgoing correspondence, including suspension letters for incomplete applications.",
+          "point4": "Edited the monthly newsletter for acceptance agents across the region."
         }
       }
     },
     "nursing": {
       "skills": {
         "title": "SKILLS",
-        "skill1": "First Aid (FHJ 2)",
+        "skill1": "First Aid",
         "skill2": "Aseptic Technique",
         "skill3": "IV Cannulation",
         "skill4": "Medication Management",
         "skill5": "Elderly Care",
         "skill6": "Ergonomics",
         "skill7": "Patient Hygiene",
-        "skill8": "Vital Signs",
+        "skill8": "Vital Signs Monitoring",
         "skill9": "Wound Care",
         "skill10": "Injections",
         "skill11": "Blood Glucose Monitoring",
@@ -211,61 +180,61 @@
       "experience": {
         "title": "WORK EXPERIENCE",
         "inmedi": {
-          "title": "INMEDI OY",
+          "title": "InMedi Oy",
           "location": "Vaasa, Finland | October 2020 – June 2022",
-          "description": "Night shift nurse for children and prematurely born infants affected by severe rare disease or lasting birth complications. Treatment includes respiratory monitoring and treatments, medication administration, PEG feeding, and maintaining good general health."
+          "description": "Night-shift nurse caring for children and premature infants with severe, rare illnesses. Responsibilities included respiratory monitoring and treatments, medication administration, PEG feeding, and maintaining overall patient well-being."
         },
         "esperi": {
-          "title": "ESPERI HOIVAKOTI GUSTAV",
+          "title": "Esperi Care Home",
           "location": "Vaasa, Finland | October 2019 – January 2020",
-          "description": "Temporary nursing position involving basic care for 30 patients across two departments."
+          "description": "Temporary position as a nurse, providing basic care for 30 patients across two wards."
         },
         "elvira": {
-          "title": "ELVIRA SERVICEBOENDET",
+          "title": "Elvira Assisted Living Facility",
           "location": "Korsholm, Finland | May 2019 – August 2019",
-          "description": "Summer substitute nurse role providing basic care for 24 patients across two departments."
+          "description": "Summer substitute nurse, responsible for basic care of 24 patients across two wards."
         },
         "hospital": {
-          "title": "VAASA CENTRAL HOSPITAL VARIOUS WARDS",
+          "title": "Vaasa Central Hospital, Various Wards",
           "location": "Vaasa, Finland | August 2018 – October 2018, January 2019 – April 2019, August 2019 – September 2019",
-          "description": "Clinical placements covering oncology, day surgery, surgical unit, surgical outpatient clinic, dialysis, home care, day unit, and mental health rehabilitation."
+          "description": "Clinical placements including oncology, day surgery, surgical inpatient unit, surgical outpatient clinic, dialysis, home care services, day unit, and mental health rehabilitation."
         },
         "training": {
-          "title": "CARL & CAROLINA ÅLDERDOMSHEMMET AND HIMALAJA PALVELUTALO",
+          "title": "Carl & Carolina Nursing Home and Himalaja Service House",
           "location": "Vaasa, Finland | May 2017 – June 2017, February 2018 – March 2018",
-          "description": "Training sessions encompassed basic care, nursing home operations, and medical training such as blood sampling, vital signs monitoring, stoma care, wound care, and medication management."
-        }
-      },
-      "education": {
-        "title": "EDUCATION",
-        "vamk": {
-          "title": "Vaasa University of Applied Sciences",
-          "location": "Vaasa, Finland | Expected graduation in 2026",
-          "degree": "Currently studying for a Bachelor of Engineering in Information Technology."
-        },
-        "eduvamia": {
-          "title": "Oy Eduvamia Ab",
-          "location": "Vaasa, Finland | 2020",
-          "program": "Integration Training / Kotoutumiskoulutus",
-          "details": "Concurrently completed Finnish for Nurses (Sairaanhoitajan Suomi) and earned B1 level YKI certificate (Yleiset kielitutkinnot)."
-        },
-        "novia": {
-          "title": "Yrkeshögskolan Novia",
-          "location": "Vaasa, Finland | 2016 – 2019",
-          "degree": "Bachelor of Nursing"
-        },
-        "wsu": {
-          "title": "Washington State University",
-          "location": "Pullman, WA, USA | 2002 – 2006",
-          "degree": "Bachelor of Art in Fine Arts with a minor in Communication"
+          "description": "Internships covering basic nursing care, nursing home operations, and clinical training such as blood sampling, vital signs monitoring, ostomy care, wound care, and medication management."
         }
       }
     },
+    "education": {
+      "title": "EDUCATION",
+      "vamk": {
+        "title": "Vaasa University of Applied Sciences",
+        "location": "Vaasa, Finland | September 2022 - Expected December 2025/January 2026",
+        "degree": "Bachelor of Engineering in Information Technology"
+      },
+      "eduvamia": {
+        "title": "Oy Eduvamia Ab",
+        "location": "Vaasa, Finland | 2020",
+        "program": "Integration Training",
+        "details": "Concurrently completed Finnish for Nurses (Sairaanhoitajan Suomi) and earned B1 level YKI certificate (Yleiset kielitutkinnot)."
+      },
+      "novia": {
+        "title": "Novia University of Applied Sciences",
+        "location": "Vaasa, Finland | September 2016 – December 2019",
+        "degree": "Bachelor of Nursing"
+      },
+      "wsu": {
+        "title": "Washington State University",
+        "location": "Pullman, WA, USA | September 2002 – December 2006",
+        "degree": "Bachelor of Art in Fine Arts and Communications"
+        }
+      },
     "languages": {
       "title": "LANGUAGES",
-      "english": "English – Native Proficiency",
-      "swedish": "Swedish – Proficient (B1)",
-      "finnish": "Finnish – Proficient (B1)"
+      "english": "English (Native)",
+      "swedish": "Swedish (Good)",
+      "finnish": "Finnish (Satisfactory)"
     }
   },
   "contact": {
