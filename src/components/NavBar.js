@@ -17,22 +17,26 @@ const NavBar = () => {
     navigate(path);
   };
 
-const languages = [
-  { code: 'en', label: 'EN', countryCode: 'GB' },
-  { code: 'fi', label: 'FI', countryCode: 'FI' },
-  { code: 'sv', label: 'SV', countryCode: 'SE' }
-];
+  const languages = [
+    { code: 'en', label: 'EN', countryCode: 'GB' },
+    { code: 'fi', label: 'FI', countryCode: 'FI' },
+    { code: 'sv', label: 'SV', countryCode: 'SE' }
+  ];
 
   return (
-    <nav className="bg-pink-100/90 backdrop-blur-sm p-6 shadow-md border-b border-pink-200 fixed top-0 left-0 right-0 z-50">
+    <nav className="fixed top-0 left-0 right-0 z-50 
+      bg-gray-900/70 backdrop-blur-md border-b border-white/10 
+      p-6 shadow-lg">
+
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center justify-between">
         <button 
           onClick={toggleMobileMenu} 
-          className="ml-auto text-gray-700 hover:text-pink-600 focus:outline-none transition-colors duration-300"
+          className="ml-auto text-gray-300 hover:text-rose-400 transition-colors duration-300"
         >
           <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
+              d="M4 6h16M4 12h16m-7 6h7" />
           </svg>
         </button>
       </div>
@@ -51,118 +55,98 @@ const languages = [
             <NavLink
               to={item.path}
               className={({ isActive }) =>
-                `px-4 py-2 text-lg font-medium transition-all duration-300 hover:-translate-y-1 ${
+                `px-4 py-2 text-lg font-medium rounded-lg transition-all duration-300 hover:-translate-y-1 ${
                   isActive
-                    ? "text-pink-600 bg-pink-50 rounded-lg"
-                    : "text-gray-700 hover:text-pink-600 hover:bg-pink-50 rounded-lg"
+                    ? "text-white bg-gradient-to-r from-rose-500 to-purple-600 shadow-md"
+                    : "text-gray-300 hover:text-white hover:bg-white/10"
                 }`
               }
             >
               {item.label}
             </NavLink>
+
+            {/* Decorative stars */}
             {index < 5 && (
-              <span 
-                className="text-pink-400 text-xl animate-pulse"
-                style={{ animationDelay: `${index * 0.5}s` }}
-              >
-                ⭐
+              <span className="w-4 h-[2px] bg-gradient-to-r from-rose-500 to-purple-600 rounded-full">
               </span>
             )}
           </React.Fragment>
         ))}
 
         {/* Language Toggle - Desktop */}
-        <div className="ml-4 flex gap-2 bg-white/50 rounded-lg p-1">
+        <div className="ml-4 flex gap-2 bg-white/5 border border-white/10 rounded-lg p-1 backdrop-blur-md">
           {languages.map((lang) => (
             <button
               key={lang.code}
               onClick={() => setLanguage(lang.code)}
-              className={`px-3 py-1 rounded-md text-sm font-medium transition-all duration-300 ${
+              className={`px-3 py-1 rounded-md text-sm font-medium flex items-center gap-1 transition-all duration-300 ${
                 language === lang.code
-                  ? 'bg-pink-500 text-white shadow-md'
-                  : 'text-gray-700 hover:bg-pink-100'
+                  ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white shadow-md'
+                  : 'text-gray-300 hover:bg-white/10'
               }`}
             >
               <ReactCountryFlag
                 countryCode={lang.countryCode}
                 svg
-                style={{ width: '1.5em', height: '1.5em', marginRight: '0.5em' }}
+                style={{ width: '1.3em', height: '1.3em' }}
               />
               {lang.label}
             </button>
           ))}
-
         </div>
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden bg-pink-100/95 backdrop-blur-sm rounded-2xl shadow-lg border border-pink-200 mt-4 transition-all duration-300 ${
+      <div className={`md:hidden bg-gray-900/90 backdrop-blur-md rounded-2xl shadow-lg border border-white/10 mt-4 transition-all duration-300 ${
         isMobileMenuOpen ? 'block' : 'hidden'
       }`}>
         <div className="p-6 space-y-4">
-          <button 
-            onClick={() => handleNavLinkClick('/')} 
-            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
-          >
-            🏠 {t('nav.home')}
-          </button>
-          <button 
-            onClick={() => handleNavLinkClick('/about')} 
-            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
-          >
-            👩‍💼 {t('nav.about')}
-          </button>
-          <button 
-            onClick={() => handleNavLinkClick('/cv')} 
-            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
-          >
-            📄 {t('nav.cv')}
-          </button>
-          <button 
-            onClick={() => handleNavLinkClick('/projects')} 
-            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
-          >
-            💻 {t('nav.projects')}
-          </button>
-          <button 
-            onClick={() => handleNavLinkClick('/hobbies')} 
-            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
-          >
-            🎨 {t('nav.hobbies')}
-          </button>
-          <button 
-            onClick={() => handleNavLinkClick('/contact')} 
-            className="block w-full text-left text-lg font-medium text-gray-700 hover:text-pink-600 py-3 px-4 rounded-lg hover:bg-pink-50 transition-all duration-300 hover:-translate-y-1"
-          >
-            📞 {t('nav.contact')}
-          </button>
+          {[
+            { path: '/', icon: '🏠', label: t('nav.home') },
+            { path: '/about', icon: '👩‍💼', label: t('nav.about') },
+            { path: '/cv', icon: '📄', label: t('nav.cv') },
+            { path: '/projects', icon: '💻', label: t('nav.projects') },
+            { path: '/hobbies', icon: '🎨', label: t('nav.hobbies') },
+            { path: '/contact', icon: '📞', label: t('nav.contact') }
+          ].map((item) => (
+            <button 
+              key={item.path}
+              onClick={() => handleNavLinkClick(item.path)} 
+              className="block w-full text-left text-lg font-medium text-gray-300 hover:text-white py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:-translate-y-1"
+            >
+              {item.icon} {item.label}
+            </button>
+          ))}
 
           {/* Language Toggle - Mobile */}
-          <div className="pt-4 border-t border-pink-200">
-              <div className="flex gap-2">
+          <div className="pt-4 border-t border-white/10">
+            <div className="flex gap-2">
               {languages.map((lang) => (
                 <button
                   key={lang.code}
                   onClick={() => setLanguage(lang.code)}
-                  className={`flex-1 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
+                  className={`flex-1 px-3 py-2 rounded-lg text-sm font-medium flex items-center justify-center gap-1 transition-all duration-300 ${
                     language === lang.code
-                      ? 'bg-pink-500 text-white shadow-md'
-                      : 'bg-white/50 text-gray-700 hover:bg-pink-100'
+                      ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white shadow-md'
+                      : 'bg-white/5 text-gray-300 hover:bg-white/10'
                   }`}
                 >
-                <ReactCountryFlag
-                countryCode={lang.countryCode}
-                svg
-                style={{ width: '1.5em', height: '1.5em', marginRight: '0.5em' }}
-              /> {lang.label}
+                  <ReactCountryFlag
+                    countryCode={lang.countryCode}
+                    svg
+                    style={{ width: '1.3em', height: '1.3em' }}
+                  />
+                  {lang.label}
                 </button>
               ))}
             </div>
           </div>
         </div>
       </div>
+
     </nav>
   );
 };
 
 export default NavBar;
+

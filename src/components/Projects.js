@@ -47,20 +47,21 @@ const Projects = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-rose-50 px-6 pt-24 pb-16">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black px-6 pt-24 pb-16 text-gray-200">
       <div
         className={`max-w-6xl mx-auto transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
         }`}
       >
+
         {/* Heading */}
         <div className="text-center mb-12">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-rose-400 to-purple-600 bg-clip-text text-transparent">
               {t('projects.title')}
             </span>
           </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-rose-500 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-rose-500 to-purple-600 mx-auto rounded-full"></div>
         </div>
 
         {/* Project cards */}
@@ -68,7 +69,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-1000 ${
+              className={`bg-white/5 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/10 hover:shadow-2xl transition-all duration-1000 ${
                 isVisible
                   ? 'opacity-100 translate-x-0'
                   : index % 2 === 0
@@ -77,34 +78,40 @@ const Projects = () => {
               }`}
               style={{ transitionDelay: `${200 + index * 200}ms` }}
             >
-              <h2 className="text-2xl font-bold mb-2">{project.name}</h2>
-              <p className="text-gray-700 mb-4">{project.description}</p>
+              <h2 className="text-2xl font-bold mb-2 text-gray-100">{project.name}</h2>
+              <p className="text-gray-300 mb-4">{project.description}</p>
 
+              {/* Tech tags */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, i) => (
-                  <span key={i} className="bg-pink-200 px-2 py-1 rounded-full text-sm">
+                  <span
+                    key={i}
+                    className="bg-gray-800/50 border border-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm"
+                  >
                     {tech}
                   </span>
                 ))}
               </div>
 
+              {/* Screenshots — transparent background, no box */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4">
                 {project.screenshots.map((src, i) => (
                   <img
                     key={i}
                     src={src}
                     alt={`Screenshot ${i + 1}`}
-                    className="rounded-lg object-contain w-full h-48 cursor-pointer"
+                    className="rounded-lg object-contain w-full h-48 bg-transparent cursor-pointer hover:scale-105 transition-transform duration-300"
                     onClick={() => setModalImg(src)}
                   />
                 ))}
               </div>
 
+              {/* GitHub link */}
               <a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-2 px-6 py-3 bg-pink-500 text-white rounded-full shadow-md hover:bg-pink-600 transition"
+                className="inline-block mt-2 px-6 py-3 bg-gradient-to-r from-rose-600 to-purple-700 text-white rounded-full shadow-lg hover:shadow-2xl hover:from-rose-700 hover:to-purple-800 transition"
               >
                 {t('projects.viewGithub')}
               </a>
@@ -115,10 +122,10 @@ const Projects = () => {
 
       {/* Modal */}
       {modalImg && (
-        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
           <div className="relative">
             <button
-              className="absolute top-2 right-2 w-12 h-12 bg-pink-500 rounded-full shadow-lg hover:bg-pink-600 flex items-center justify-center transition"
+              className="absolute top-2 right-2 w-12 h-12 bg-gradient-to-r from-rose-600 to-purple-700 rounded-full shadow-lg hover:from-rose-700 hover:to-purple-800 flex items-center justify-center transition"
               onClick={() => setModalImg(null)}
             >
               <svg
@@ -133,7 +140,11 @@ const Projects = () => {
               </svg>
             </button>
 
-            <img src={modalImg} alt="Enlarged screenshot" className="max-h-[90vh] max-w-[90vw] rounded-lg" />
+            <img
+              src={modalImg}
+              alt="Enlarged screenshot"
+              className="max-h-[90vh] max-w-[90vw] rounded-lg shadow-xl object-contain bg-transparent"
+            />
           </div>
         </div>
       )}
@@ -142,3 +153,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
