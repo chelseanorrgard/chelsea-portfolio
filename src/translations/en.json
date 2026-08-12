@@ -121,9 +121,17 @@
       },
       "experience": {
         "title": "WORK EXPERIENCE",
+        "danfoss2": {
+          "title": "Product Development Trainee – Danfoss Drives",
+          "location": "Vaasa, Finland | August 2026 – Present",
+          "point1": "Coordinate escalated technical support cases between SalesForce and Polarion.",
+          "point2": "Review incoming cases and route technically complex issues to the appropriate product owners.",
+          "point3": "Track cases through the technical investigation process and communicate resolutions back to Sales and support teams.",
+          "point4": "Help ensure clear information flow between customers, Sales, Technical Support, and Product Development."
+        },
         "danfoss": {
           "title": "Production – Danfoss Drives (via Barona)",
-          "location": "Vaasa, Finland | June 2022 – February 2024",
+          "location": "Vaasa, Finland | June 2022 – Present",
           "point1": "Rejoined Danfoss after an earlier period (July 2022-April 2024), bringing prior experience and versatility.",
           "point2": "Assembled frequency converters from frame to final product, including circuit boards, SKIIPs, and cabling.",
           "point3": "Performed post-production quality checks using automated test ovens.",

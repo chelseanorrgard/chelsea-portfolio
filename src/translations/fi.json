@@ -121,6 +121,15 @@
       },
       "experience": {
         "title": "TYÖKOKEMUS",
+        "danfoss2": {
+          "title": "Tuotekehityksen harjoittelija – Danfoss Drives",
+          "location": "Vaasa, Suomi | Elokuu 2026 – Nykyhetki",
+          "point1": "Koordinoin eskaloituja teknisen tuen tapauksia SalesForcen ja Polarionin välillä.",
+          "point2": "Käsittelen saapuvia tapauksia ja ohjaan teknisesti haastavat ongelmat oikeille tuoteasiantuntijoille.",
+          "point3": "Seuraan tapauksia teknisen selvityksen aikana ja välitän ratkaisut takaisin myynti- ja tukitiimeille.",
+          "point4": "Varmistan sujuvan tiedonkulun asiakkaiden, myynnin, teknisen tuen ja tuotekehityksen välillä."
+        },
+        
         "danfoss": {
           "title": "Tuotanto – Danfoss Drives (Baronan kautta)",
           "location": "Vaasa, Suomi | Kesäkuu 2022 – Nykyhetki",

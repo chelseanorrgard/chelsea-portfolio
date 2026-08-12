@@ -121,6 +121,15 @@
       },
       "experience": {
         "title": "ARBETSLIVSERFARENHET",
+        "danfoss2": {
+          "title": "Produktutvecklingspraktikant – Danfoss Drives",
+          "location": "Vasa, Finland | Augusti 2026 – Pågående",
+          "point1": "Koordinerar eskalerade tekniska supportärenden mellan SalesForce och Polarion.",
+          "point2": "Granskar inkommande ärenden och styr tekniskt krävande problem till rätt produktansvariga.",
+          "point3": "Följer upp ärenden under den tekniska utredningen och förmedlar lösningarna tillbaka till försäljnings- och supportteamen.",
+          "point4": "Säkerställer ett smidigt informationsflöde mellan kunder, försäljning, teknisk support och produktutveckling."
+        },
+        
         "danfoss": {
           "title": "Produktion – Danfoss Drives (via Barona)",
           "location": "Vasa, Finland | Juni 2022 – Pågående",

@@ -7,7 +7,16 @@ const ITResume = () => {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-2 text-pink-500">{t('resume.it.experience.title')}</h2>
-      
+
+      <h3 className="text-lg font-bold mb-1">{t('resume.it.experience.danfoss2.title')}</h3>
+      <p className="italic mb-1">{t('resume.it.experience.danfoss2.location')}</p>
+      <ul className="list-disc list-inside mb-4">
+        <li>{t('resume.it.experience.danfoss2.point1')}</li>
+        <li>{t('resume.it.experience.danfoss2.point2')}</li>
+        <li>{t('resume.it.experience.danfoss2.point3')}</li>
+        <li>{t('resume.it.experience.danfoss2.point4')}</li>
+      </ul>
+
       <h3 className="text-lg font-bold mb-1">{t('resume.it.experience.danfoss.title')}</h3>
       <p className="italic mb-1">{t('resume.it.experience.danfoss.location')}</p>
       <ul className="list-disc list-inside mb-4">
